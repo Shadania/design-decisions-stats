@@ -1,0 +1,352 @@
+{
+    "status": [
+        [
+            "closed",
+            [
+                809794,
+                {
+                    "content management": 179311,
+                    "data storage & processing": 161998,
+                    "devops and cloud": 155016,
+                    "soa and middlewares": 82863,
+                    "software development tools": 129968,
+                    "web development": 100638
+                }
+            ]
+        ],
+        [
+            "resolved",
+            [
+                302539,
+                {
+                    "content management": 18591,
+                    "data storage & processing": 169665,
+                    "devops and cloud": 17654,
+                    "soa and middlewares": 48106,
+                    "software development tools": 12432,
+                    "web development": 36091
+                }
+            ]
+        ],
+        [
+            "open",
+            [
+                122800,
+                {
+                    "content management": 11726,
+                    "data storage & processing": 66712,
+                    "devops and cloud": 11690,
+                    "soa and middlewares": 10609,
+                    "software development tools": 11275,
+                    "web development": 10788
+                }
+            ]
+        ],
+        [
+            "done",
+            [
+                21051,
+                {
+                    "data storage & processing": 4891,
+                    "devops and cloud": 9053,
+                    "soa and middlewares": 2111,
+                    "software development tools": 9,
+                    "web development": 4987
+                }
+            ]
+        ],
+        [
+            "to do",
+            [
+                6230,
+                {
+                    "data storage & processing": 2164,
+                    "devops and cloud": 3430,
+                    "soa and middlewares": 396,
+                    "software development tools": 118,
+                    "web development": 122
+                }
+            ]
+        ],
+        [
+            "in progress",
+            [
+                4312,
+                {
+                    "content management": 397,
+                    "data storage & processing": 2065,
+                    "devops and cloud": 1112,
+                    "soa and middlewares": 219,
+                    "software development tools": 371,
+                    "web development": 148
+                }
+            ]
+        ],
+        [
+            "reopened",
+            [
+                2914,
+                {
+                    "content management": 309,
+                    "data storage & processing": 1344,
+                    "devops and cloud": 137,
+                    "soa and middlewares": 247,
+                    "software development tools": 342,
+                    "web development": 535
+                }
+            ]
+        ],
+        [
+            "backlog",
+            [
+                1216,
+                {
+                    "data storage & processing": 208,
+                    "devops and cloud": 905,
+                    "soa and middlewares": 103
+                }
+            ]
+        ],
+        [
+            "under review",
+            [
+                540,
+                {
+                    "devops and cloud": 176,
+                    "software development tools": 364
+                }
+            ]
+        ],
+        [
+            "rejected",
+            [
+                441,
+                {
+                    "devops and cloud": 441
+                }
+            ]
+        ],
+        [
+            "in review",
+            [
+                83,
+                {
+                    "content management": 26,
+                    "data storage & processing": 7,
+                    "devops and cloud": 6,
+                    "soa and middlewares": 2,
+                    "software development tools": 38,
+                    "web development": 4
+                }
+            ]
+        ],
+        [
+            "planning",
+            [
+                81,
+                {
+                    "devops and cloud": 55,
+                    "software development tools": 10,
+                    "web development": 16
+                }
+            ]
+        ],
+        [
+            "selected for development",
+            [
+                14,
+                {
+                    "devops and cloud": 8,
+                    "software development tools": 6
+                }
+            ]
+        ],
+        [
+            "implementing",
+            [
+                1,
+                {
+                    "data storage & processing": 1
+                }
+            ]
+        ]
+    ],
+    "issue_type": [
+        [
+            "bug",
+            [
+                621718,
+                {
+                    "content management": 119004,
+                    "data storage & processing": 202208,
+                    "devops and cloud": 53261,
+                    "soa and middlewares": 72765,
+                    "software development tools": 89207,
+                    "web development": 85273
+                }
+            ]
+        ],
+        [
+            "task",
+            [
+                96146,
+                {
+                    "content management": 5742,
+                    "data storage & processing": 31398,
+                    "devops and cloud": 11438,
+                    "soa and middlewares": 22218,
+                    "software development tools": 11197,
+                    "web development": 14153
+                }
+            ]
+        ],
+        [
+            "new feature",
+            [
+                47481,
+                {
+                    "content management": 4511,
+                    "data storage & processing": 19780,
+                    "devops and cloud": 4462,
+                    "soa and middlewares": 7476,
+                    "software development tools": 4695,
+                    "web development": 6557
+                }
+            ]
+        ],
+        [
+            "story",
+            [
+                20173,
+                {
+                    "content management": 56,
+                    "data storage & processing": 2828,
+                    "devops and cloud": 8577,
+                    "soa and middlewares": 1563,
+                    "software development tools": 3767,
+                    "web development": 3382
+                }
+            ]
+        ],
+        [
+            "epic",
+            [
+                4662,
+                {
+                    "content management": 58,
+                    "data storage & processing": 583,
+                    "devops and cloud": 2077,
+                    "soa and middlewares": 711,
+                    "software development tools": 834,
+                    "web development": 399
+                }
+            ]
+        ],
+        [
+            "problem",
+            [
+                1617,
+                {
+                    "devops and cloud": 1617
+                }
+            ]
+        ],
+        [
+            "support",
+            [
+                95,
+                {
+                    "data storage & processing": 37,
+                    "soa and middlewares": 22,
+                    "software development tools": 36
+                }
+            ]
+        ],
+        [
+            "it help",
+            [
+                5,
+                {
+                    "data storage & processing": 2,
+                    "soa and middlewares": 3
+                }
+            ]
+        ],
+        [
+            "incident",
+            [
+                2,
+                {
+                    "web development": 2
+                }
+            ]
+        ]
+    ],
+    "resolution": [
+        [
+            "done",
+            [
+                176547,
+                {
+                    "content management": 1048,
+                    "data storage & processing": 28419,
+                    "devops and cloud": 25193,
+                    "soa and middlewares": 36596,
+                    "software development tools": 37913,
+                    "web development": 47378
+                }
+            ]
+        ],
+        [
+            "duplicate",
+            [
+                64446,
+                {
+                    "content management": 17757,
+                    "data storage & processing": 19190,
+                    "devops and cloud": 12664,
+                    "soa and middlewares": 2382,
+                    "software development tools": 9183,
+                    "web development": 3270
+                }
+            ]
+        ],
+        [
+            "won't do",
+            [
+                19807,
+                {
+                    "content management": 11842,
+                    "data storage & processing": 1848,
+                    "devops and cloud": 2511,
+                    "soa and middlewares": 1381,
+                    "software development tools": 922,
+                    "web development": 1303
+                }
+            ]
+        ],
+        [
+            "cannot reproduce",
+            [
+                18124,
+                {
+                    "content management": 4065,
+                    "data storage & processing": 4692,
+                    "devops and cloud": 1575,
+                    "soa and middlewares": 1988,
+                    "software development tools": 3455,
+                    "web development": 2349
+                }
+            ]
+        ],
+        [
+            "known error",
+            [
+                1,
+                {
+                    "software development tools": 1
+                }
+            ]
+        ]
+    ]
+}

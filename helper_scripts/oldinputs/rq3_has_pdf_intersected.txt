@@ -1,0 +1,27 @@
+all domains,existence,executive,existence-executive,property,existence-property,executive-property,existence-executive-property,non-arch
+False,0.9993606311909558,1.0001953642490373,0.9986536208503958,0.9986496051178838,0.994914914207335,0.9987104062770789,0.9904706610732138,1.0000912069629029,
+True,2.0722438148703146,0.6723673336673419,3.2579248396421883,3.264659363264989,9.527866408466371,3.1626936965609667,16.981034075345217,0.8470427389287236,
+
+content management,existence,executive,existence-executive,property,existence-property,executive-property,existence-executive-property,non-arch
+False,,,0.9953418285620405,,0.9952312276521396,,,,
+True,,,3.9080128205128206,,3.9770589834194072,,,,
+
+data storage & processing,existence,executive,existence-executive,property,existence-property,executive-property,existence-executive-property,non-arch
+False,0.9980206345230153,,0.996130317743391,0.99763834848538,0.9917552368283612,0.9962640888838531,0.9768869393234983,1.0003043475672027,
+True,4.049615721373675,,6.962033784913865,4.63860523543237,13.702737154703872,6.755932093355407,36.610378188214604,0.5310905759975938,
+
+devops and cloud,existence,executive,existence-executive,property,existence-property,executive-property,existence-executive-property,non-arch
+False,,,,,,,0.9944456676162547,,
+True,,,,,,,15.515184818844562,,
+
+soa and middlewares,existence,executive,existence-executive,property,existence-property,executive-property,existence-executive-property,non-arch
+False,,,,0.9976296157888179,0.9981726822098878,,,1.0000460826087558,
+True,,,,25.706006693676237,20.04574175824176,,,0.5196908437813827,
+
+software development tools,existence,executive,existence-executive,property,existence-property,executive-property,existence-executive-property,non-arch
+False,,,,,,,,,
+True,,,,,,,,,
+
+web development,existence,executive,existence-executive,property,existence-property,executive-property,existence-executive-property,non-arch
+False,,,,,,,,,
+True,,,,,,,,,

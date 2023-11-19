@@ -1,0 +1,5 @@
+requests
+nltk
+scipy
+matplotlib
+matplotlib_venn

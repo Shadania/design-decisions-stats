@@ -1,0 +1,44 @@
+values
+,False,True
+content management,26256,51
+data storage & processing,61958,148
+devops and cloud,58998,18
+soa and middlewares,25579,8
+software development tools,22235,4
+web development,25287,5
+
+stats
+,False,True
+content management,20.778071061818853,20.778071061818853
+data storage & processing,140.82724085279455,140.82724085279455
+devops and cloud,42.48265788327361,42.48265788327361
+soa and middlewares,14.505614953863297,14.505614953863297
+software development tools,17.205051302889366,17.205051302889366
+web development,19.179534936479534,19.179534936479534
+
+pvals
+,False,True
+content management,0,0
+data storage & processing,0,0
+devops and cloud,0,0
+soa and middlewares,0,0
+software development tools,0,0
+web development,0,0
+
+expected
+,False,True
+content management,26279.088316776015,27.911683223984003
+data storage & processing,62040.105637347144,65.89436265285858
+devops and cloud,58953.38412220524,62.61587779475577
+soa and middlewares,25559.852235577902,27.14776442209597
+software development tools,22215.404458006684,23.59554199331662
+web development,25265.165230087012,26.834769912989067
+
+value/expected
+,False,True
+content management,0.9991214186543421,1.827191846179188,
+data storage & processing,0.9986765716063237,2.2460191440000155,
+devops and cloud,1.0007567992653699,0.28746702328442875,
+soa and middlewares,1.0007491343942687,0.294683564937991,
+software development tools,1.0008820700082395,0.16952354818266055,
+web development,1.0008642243070307,0.18632542839802052,
