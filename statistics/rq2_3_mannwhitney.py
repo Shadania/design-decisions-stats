@@ -70,14 +70,13 @@ def perform_tests(rawdata, charac, xticks, folder, filename_extra="", labels=[],
             csv += ",".join(results) + ",\n"
 
     # save csv
-    with open(f'results/mannwhitney/{folder}/mw{filename_extra}.csv', 'w') as f:
+    with open(f'results/mannwhitney/{folder}/{charac}_{filename_extra}.csv', 'w') as f:
         f.write(csv)
 
     # box plot
     margins = 0.1
     space_per_dom = (1.0 - margins*2.0) / len(domains)
-    if wide:
-        plt.figure().set_figwidth(18)
+    plt.figure().set_figwidth(18 if wide else 8)
     locations = {}
     for i in range(len(domains)):
         dom = domains[i]
@@ -109,7 +108,7 @@ def perform_tests(rawdata, charac, xticks, folder, filename_extra="", labels=[],
 
     plt.xticks(np.arange(len(dtypes))+x_offset, xticks)
     plt.title(charac.title()) # todo correct? from "ch.title()"
-    plt.savefig(f'results/mannwhitney/{folder}/mw{filename_extra}_plot.png', bbox_inches="tight")
+    plt.savefig(f'results/mannwhitney/{folder}/{charac}_{filename_extra}_plot.png', bbox_inches="tight")
 
     # with arrows
     radsize = ".8" if wide else ".4"
@@ -132,10 +131,10 @@ def perform_tests(rawdata, charac, xticks, folder, filename_extra="", labels=[],
                     plt.gca().add_patch(patches.FancyArrowPatch(start, end, connectionstyle=f"arc3, rad={radsize}", **kw))
     ylims = plt.ylim()
     plt.ylim(ylims[0], ylims[1] * 1.2)
-    plt.savefig(f'results/mannwhitney/{folder}/mw{filename_extra}_plot_arrows.png', bbox_inches="tight")
+    plt.savefig(f'results/mannwhitney/{folder}/{charac}_{filename_extra}_plot_arrows.png', bbox_inches="tight")
 
     # done :)
-    plt.close()
+    plt.close('all')
 
 # legend
 os.makedirs(os.path.dirname('results/mannwhitney/'), exist_ok=True)
@@ -207,7 +206,7 @@ def mannwhitney_rq3(name = ""):
             "Software Development Tools": "SDT",
             "Web Development": "WD"
         }
-        xticks_this = [replacement[x].title() for x in list(rawdata.keys())]
+        xticks_this = [replacement[x].title() if x in replacement else x.title() for x in list(rawdata.keys())]
         
         perform_tests(rawdata_inverted, ch, xticks_this, f'rq3_{ch}', f"_inverted{name}", c.dtypes_short, wide=True)
 
