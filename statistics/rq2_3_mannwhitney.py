@@ -8,7 +8,7 @@ import json
 import config as c
 
 
-def perform_tests(rawdata, charac, xticks, folder, filename_extra="", labels=[], outliers=False, method="auto", wide=False):
+def perform_tests(rawdata, charac, xticks, folder, filename_extra="", labels=[], outliers=False, method="auto", width=8, show_legend=True):
     os.makedirs(os.path.dirname(f'results/mannwhitney/{folder}/'), exist_ok=True)
     greater_than = {}
     less_than = {}
@@ -76,7 +76,7 @@ def perform_tests(rawdata, charac, xticks, folder, filename_extra="", labels=[],
     # box plot
     margins = 0.1
     space_per_dom = (1.0 - margins*2.0) / len(domains)
-    plt.figure().set_figwidth(18 if wide else 8)
+    plt.figure().set_figwidth(width)
     locations = {}
     for i in range(len(domains)):
         dom = domains[i]
@@ -97,7 +97,7 @@ def perform_tests(rawdata, charac, xticks, folder, filename_extra="", labels=[],
 
         label = dom.title() if len(labels) == 0 else labels[i]
         plt.plot([], c=c.colors[i], label=label)
-        if wide:
+        if show_legend:
             plt.legend()
     
     x_offset = 0
@@ -111,7 +111,7 @@ def perform_tests(rawdata, charac, xticks, folder, filename_extra="", labels=[],
     plt.savefig(f'results/mannwhitney/{folder}/{charac}_{filename_extra}_plot.png', bbox_inches="tight")
 
     # with arrows
-    radsize = ".8" if wide else ".4"
+    radsize = ".8" if width > 8 else ".4"
     arrow_cutoff = 0.001
     for x_dom in greater_than:
         for x_dtype in greater_than[x_dom]:
@@ -153,8 +153,8 @@ def mannwhitney_rq2(name = ""):
         mwdata = {}
         for dom in rawdata[ch]:
             mwdata[dom] = {'': rawdata[ch][dom]}
-        perform_tests(mwdata, ch, [''], f'rq2_{ch}', filename_extra=name)
-        perform_tests(mwdata, ch, [''], f'rq2_{ch}', outliers=True, filename_extra=f"_fliers{name}")
+        perform_tests(mwdata, ch, [''], f'rq2_{ch}', filename_extra=name, show_legend = False)
+        perform_tests(mwdata, ch, [''], f'rq2_{ch}', outliers=True, filename_extra=f"_fliers{name}", show_legend = False)
 
 def mannwhitney_rq3(name = ""):
     for ch in c.charac_cont:
@@ -178,8 +178,8 @@ def mannwhitney_rq3(name = ""):
 
                     rawdata['full'][dtype].extend(this_dom[dtype][ch])
         
-        perform_tests(rawdata, ch, c.dtypes_short, f'rq3_{ch}', name,wide=True)
-        perform_tests({'full': rawdata['full']}, ch, c.dtypes_short, f'rq3_{ch}', f'_full_only{name}', wide=True)
+        perform_tests(rawdata, ch, c.dtypes_short, f'rq3_{ch}', filename_extra=name, width = 18)
+        perform_tests({'full': rawdata['full']}, ch, c.dtypes_short, f'rq3_{ch}', filename_extra=f'_full_only{name}', width = 18)
 
         # inverted
         rawdata_inverted = {}
@@ -208,7 +208,7 @@ def mannwhitney_rq3(name = ""):
         }
         xticks_this = [replacement[x].title() if x in replacement else x.title() for x in list(rawdata.keys())]
         
-        perform_tests(rawdata_inverted, ch, xticks_this, f'rq3_{ch}', f"_inverted{name}", c.dtypes_short, wide=True)
+        perform_tests(rawdata_inverted, ch, xticks_this, f'rq3_{ch}', filename_extra=f"_inverted{name}", labels=c.dtypes_short, width = 18)
 
         # simplified dtypes
         rawdata_simple = {}
@@ -220,8 +220,8 @@ def mannwhitney_rq3(name = ""):
                     rawdata_simple[dom][dtype_comb].extend(rawdata[dom][dtype_orig])
 
         simple_xticks = [x.title() for x in list(c.dtype_combined.keys())]
-        perform_tests(rawdata_simple, ch, simple_xticks, f'rq3_{ch}', f"_simple{name}")
-        perform_tests({'full': rawdata_simple['full']}, ch, simple_xticks, f'rq3_{ch}', f"_simple_full_only{name}")
+        perform_tests(rawdata_simple, ch, simple_xticks, f'rq3_{ch}', filename_extra=f"_simple{name}", width = 12)
+        perform_tests({'full': rawdata_simple['full']}, ch, simple_xticks, f'rq3_{ch}', filename_extra=f"_simple_full_only{name}", width = 8)
         
         rawdata_simple_inverted = {}
         for dom in rawdata_simple:
@@ -229,8 +229,10 @@ def mannwhitney_rq3(name = ""):
                 if not dtype in rawdata_simple_inverted:
                     rawdata_simple_inverted[dtype] = {}
                 rawdata_simple_inverted[dtype][dom] = rawdata_simple[dom][dtype]
+
+        labels_this = [replacement[x].title() if x in replacement else x.title() for x in list(rawdata_simple.keys())]
         
-        perform_tests(rawdata_simple_inverted, ch, [x.title() for x in list(rawdata_simple.keys())], f'rq3_{ch}', f"_simple_inverted{name}", simple_xticks)
+        perform_tests(rawdata_simple_inverted, ch, labels_this, f'rq3_{ch}', filename_extra=f"_simple_inverted{name}", labels=simple_xticks, width = 12)
 
         print(f"RQ3 Mann-Whitney {name}: {ch} done")
 
