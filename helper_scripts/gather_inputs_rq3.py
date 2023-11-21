@@ -10,10 +10,10 @@ domains = [
 ]
 
 # pick from: "has_pdf", "hierarchy", "issue_type", "resolution", "status"
-target_charac = "status"
+target_charac = "has_pdf"
 
 # pick from: "simple", "intersected" (or add "_high_conf" to either for that mode)
-target_mode = "simple"
+target_mode = "intersected"
 
 result = []
 

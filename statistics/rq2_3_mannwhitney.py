@@ -70,7 +70,7 @@ def perform_tests(rawdata, charac, xticks, folder, filename_extra="", labels=[],
             csv += ",".join(results) + ",\n"
 
     # save csv
-    with open(f'results/mannwhitney/{folder}/{charac}_{filename_extra}.csv', 'w') as f:
+    with open(f'results/mannwhitney/{folder}/{charac}{filename_extra}.csv', 'w') as f:
         f.write(csv)
 
     # box plot
@@ -108,7 +108,7 @@ def perform_tests(rawdata, charac, xticks, folder, filename_extra="", labels=[],
 
     plt.xticks(np.arange(len(dtypes))+x_offset, xticks)
     plt.title(charac.title()) # todo correct? from "ch.title()"
-    plt.savefig(f'results/mannwhitney/{folder}/{charac}_{filename_extra}_plot.png', bbox_inches="tight")
+    plt.savefig(f'results/mannwhitney/{folder}/{charac}{filename_extra}_plot.png', bbox_inches="tight")
 
     # with arrows
     radsize = ".8" if width > 8 else ".4"
@@ -131,7 +131,7 @@ def perform_tests(rawdata, charac, xticks, folder, filename_extra="", labels=[],
                     plt.gca().add_patch(patches.FancyArrowPatch(start, end, connectionstyle=f"arc3, rad={radsize}", **kw))
     ylims = plt.ylim()
     plt.ylim(ylims[0], ylims[1] * 1.2)
-    plt.savefig(f'results/mannwhitney/{folder}/{charac}_{filename_extra}_plot_arrows.png', bbox_inches="tight")
+    plt.savefig(f'results/mannwhitney/{folder}/{charac}{filename_extra}_plot_arrows.png', bbox_inches="tight")
 
     # done :)
     plt.close('all')
