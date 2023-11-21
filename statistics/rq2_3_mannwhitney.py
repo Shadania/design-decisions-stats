@@ -179,7 +179,7 @@ def mannwhitney_rq3(name = ""):
                     rawdata['full'][dtype].extend(this_dom[dtype][ch])
         
         perform_tests(rawdata, ch, c.dtypes_short, f'rq3_{ch}', filename_extra=name, width = 18)
-        perform_tests({'full': rawdata['full']}, ch, c.dtypes_short, f'rq3_{ch}', filename_extra=f'_full_only{name}', width = 18)
+        perform_tests({'full': rawdata['full']}, ch, c.dtypes_short, f'rq3_{ch}', filename_extra=f'_full_only{name}', width = 8)
 
         # inverted
         rawdata_inverted = {}
@@ -221,7 +221,7 @@ def mannwhitney_rq3(name = ""):
 
         simple_xticks = [x.title() for x in list(c.dtype_combined.keys())]
         perform_tests(rawdata_simple, ch, simple_xticks, f'rq3_{ch}', filename_extra=f"_simple{name}", width = 12)
-        perform_tests({'full': rawdata_simple['full']}, ch, simple_xticks, f'rq3_{ch}', filename_extra=f"_simple_full_only{name}", width = 8)
+        perform_tests({'full': rawdata_simple['full']}, ch, simple_xticks, f'rq3_{ch}', filename_extra=f"_simple_full_only{name}", width = 4)
         
         rawdata_simple_inverted = {}
         for dom in rawdata_simple:
