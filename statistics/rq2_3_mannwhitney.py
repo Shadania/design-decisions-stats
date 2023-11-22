@@ -190,23 +190,23 @@ def mannwhitney_rq3(name = ""):
                 rawdata_inverted[dtype][dom] = rawdata[dom][dtype]
 
         replacement = {
-            "Existence": "Exis",
-            "Executive": "Exec",
-            "Existence-Executive": "Exis-Exec",
-            "Property": "Prop",
-            "Existence-Property": "Exis-Prop",
-            "Executive-Property": "Exec-Prop",
-            "Existence-Executive-Property": "All",
-            "Nonarch": "Non-Arch",
+            "existence": "Exis",
+            "executive": "Exec",
+            "existence-executive": "Exis-Exec",
+            "property": "Prop",
+            "existence-property": "Exis-Prop",
+            "executive-property": "Exec-Prop",
+            "existence-executive-property": "All",
+            "nonarch": "Non-Arch",
 
-            "Content Management": "CM",
-            "Data Storage \\& Processing": "DSP",
-            "Devops And Cloud": "DC",
-            "Soa And Middlewares": "SOAM",
-            "Software Development Tools": "SDT",
-            "Web Development": "WD"
+            "content management": "CM",
+            "data storage \\& Processing": "DSP",
+            "devops and cloud": "DC",
+            "soa and middlewares": "SOAM",
+            "software development tools": "SDT",
+            "web development": "WD"
         }
-        xticks_this = [replacement[x].title() if x in replacement else x.title() for x in list(rawdata.keys())]
+        xticks_this = [replacement[x.lower()].title() if x.lower() in replacement else x.title() for x in list(rawdata.keys())]
         
         perform_tests(rawdata_inverted, ch, xticks_this, f'rq3_{ch}', filename_extra=f"_inverted{name}", labels=c.dtypes_short, width = 18)
 
@@ -230,7 +230,7 @@ def mannwhitney_rq3(name = ""):
                     rawdata_simple_inverted[dtype] = {}
                 rawdata_simple_inverted[dtype][dom] = rawdata_simple[dom][dtype]
 
-        labels_this = [replacement[x].title() if x in replacement else x.title() for x in list(rawdata_simple.keys())]
+        labels_this = [replacement[x.lower()].title() if x.lower() in replacement else x.title() for x in list(rawdata_simple.keys())]
         
         perform_tests(rawdata_simple_inverted, ch, labels_this, f'rq3_{ch}', filename_extra=f"_simple_inverted{name}", labels=simple_xticks, width = 12)
 
