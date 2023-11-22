@@ -49,35 +49,39 @@ def process_value(value, minval, maxval):
     except:
         return replacement[value] if value in replacement else value
 
-with open('input.txt') as f:
-    values = [line.strip().replace('&', '\\&').split(',') for line in f.readlines()]
+def run(output="output"):
+    with open('input.txt') as f:
+        values = [line.strip().replace('&', '\\&').split(',') for line in f.readlines()]
 
-with open('output.txt', 'w') as f:
-    actual_numbers = []
-    for arr in values:
-        for x in arr:
-            try:
-                val = float(x)
-                actual_numbers.append(val)
-            except:
+    with open(f'{output}.tex', 'w') as f:
+        actual_numbers = []
+        for arr in values:
+            for x in arr:
+                try:
+                    val = float(x)
+                    actual_numbers.append(val)
+                except:
+                    continue
+
+        minval = min(actual_numbers)
+        maxval = max(actual_numbers)
+        amtcols = len(values[0])
+        f.write(f"\\begin{{tabular}}{{{'|c||'+'c|'*(amtcols - 1)}}}")
+        f.write('\n\\hline\n')
+
+        for arr in values:
+            if len(arr) == 1:
+                f.write('\\hline\n')
                 continue
+            results = []
+            while len(arr) > amtcols:
+                arr.pop()
+            for x in arr:
+                results.append(process_value(x, minval, maxval))
+            f.write(' & '.join(results))
+            f.write(' \\\\ \n\\hline\n')
 
-    minval = min(actual_numbers)
-    maxval = max(actual_numbers)
-    amtcols = len(values[0])
-    f.write(f"\\begin{{tabular}}{{{'|c||'+'c|'*(amtcols - 1)}}}")
-    f.write('\n\\hline\n')
+        f.write('\\end{tabular}')
 
-    for arr in values:
-        if len(arr) == 1:
-            f.write('\\hline\n')
-            continue
-        results = []
-        while len(arr) > amtcols:
-            arr.pop()
-        for x in arr:
-            results.append(process_value(x, minval, maxval))
-        f.write(' & '.join(results))
-        f.write(' \\\\ \n\\hline\n')
-
-    f.write('\\end{tabular}')
+if __name__ == '__main__':
+    run()
