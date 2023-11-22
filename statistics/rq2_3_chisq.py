@@ -104,7 +104,7 @@ def run_tests_rq2(name = ""):
         for dom in rawdata[ch]:
             for val in rawdata[ch][dom]:
                 if not val in values:
-                    if ch in c.values_to_count and val not in c.values_to_count[ch]:
+                    if ch in c.option_limiting and val not in c.option_limiting[ch]:
                         continue
                     values.append(val)
 
@@ -134,8 +134,8 @@ def run_tests_rq3(dtypemode = "intersected", name = ""):
                     if ch not in domdata[dtype]:
                         continue
                     for option in domdata[dtype][ch]:
-                        if ch in c.option_limiting:
-                            if option not in c.option_limiting[ch]:
+                        if ch.lower() in c.option_limiting:
+                            if option.lower() not in c.option_limiting[ch]:
                                 continue
                         if not option in chardata:
                             chardata[option] = {}
