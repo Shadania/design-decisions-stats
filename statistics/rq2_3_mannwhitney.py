@@ -200,13 +200,13 @@ def mannwhitney_rq3(name = ""):
             "nonarch": "Non-Arch",
 
             "content management": "CM",
-            "data storage \\& Processing": "DSP",
+            "data storage & processing": "DSP",
             "devops and cloud": "DC",
             "soa and middlewares": "SOAM",
             "software development tools": "SDT",
             "web development": "WD"
         }
-        xticks_this = [replacement[x.lower()].title() if x.lower() in replacement else x.title() for x in list(rawdata.keys())]
+        xticks_this = [replacement[x.lower()] if x.lower() in replacement else x.title() for x in list(rawdata.keys())]
         
         perform_tests(rawdata_inverted, ch, xticks_this, f'rq3_{ch}', filename_extra=f"_inverted{name}", labels=c.dtypes_short, width = 18)
 
@@ -230,7 +230,7 @@ def mannwhitney_rq3(name = ""):
                     rawdata_simple_inverted[dtype] = {}
                 rawdata_simple_inverted[dtype][dom] = rawdata_simple[dom][dtype]
 
-        labels_this = [replacement[x.lower()].title() if x.lower() in replacement else x.title() for x in list(rawdata_simple.keys())]
+        labels_this = [replacement[x.lower()] if x.lower() in replacement else x.title() for x in list(rawdata_simple.keys())]
         
         perform_tests(rawdata_simple_inverted, ch, labels_this, f'rq3_{ch}', filename_extra=f"_simple_inverted{name}", labels=simple_xticks, width = 12)
 
