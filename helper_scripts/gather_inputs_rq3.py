@@ -1,6 +1,6 @@
 from to_latex import run
 
-domains = [
+domains_default = [
     'full',
     "content management",
     "data storage & processing",
@@ -22,7 +22,7 @@ def toheader(domain):
         return "all domains"
     return domain
 
-def get_result(target_charac, target_mode):
+def get_result(target_charac, target_mode, domains=domains_default, file_extra=""):
     result = []
     for dom in domains:
         with open(f'../statistics/results/chisq/rq3_{target_charac}/{dom}_{target_mode}.csv') as f:
@@ -47,10 +47,10 @@ def get_result(target_charac, target_mode):
 
     with open('input.txt', 'w') as f:
         f.write('\n'.join(result))
-    with open(f'oldinputs/rq3_{target_charac}_{target_mode}.txt', 'w') as f:
+    with open(f'oldinputs/rq3{file_extra}_{target_charac}_{target_mode}.txt', 'w') as f:
         f.write('\n'.join(result))
 
-    run(f'rq3/{target_charac}_{target_mode}')
+    run(f'rq3/{target_charac}_{target_mode}{file_extra}')
 
 if __name__ == '__main__':
-    get_result(target_charac, target_mode)
+    get_result(target_charac, target_mode, domains_default)

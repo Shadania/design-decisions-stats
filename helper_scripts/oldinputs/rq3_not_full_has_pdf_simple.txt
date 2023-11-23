@@ -1,0 +1,23 @@
+content management,existence,executive,property,nonarch
+False,,,0.9978480188554772,1.0000854378242976,
+True,,,2.307206635035678,0.9481013618129949,
+
+data storage & processing,existence,executive,property,nonarch
+False,0.9966003720356945,,0.9939346176476536,1.0004762349505871,
+True,5.140834530013053,,8.387792119029468,0.4199335490543808,
+
+devops and cloud,existence,executive,property,nonarch
+False,,,,,
+True,,,,,
+
+soa and middlewares,existence,executive,property,nonarch
+False,,,0.9984177034019709,1.000057926762711,
+True,,,15.679657794676805,0.46258807937114654,
+
+software development tools,existence,executive,property,nonarch
+False,,,,,
+True,,,,,
+
+web development,existence,executive,property,nonarch
+False,,,,,
+True,,,,,
