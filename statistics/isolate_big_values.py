@@ -26,6 +26,8 @@ default_jira_options = {
     ]
 }
 
+archonly = True
+
 def count(types = None, name = ''):
     results = {}
     for ch in characs:
@@ -34,6 +36,8 @@ def count(types = None, name = ''):
             with open(f'data/domain_{dom}.json') as f:
                 domdata = json.load(f)
             for dtype in domdata:
+                if archonly and dtype == '':
+                    continue
                 if ch in domdata[dtype]:
                     for option in domdata[dtype][ch]:
                         if types is not None and ch in types and option.lower() not in types[ch]:
@@ -46,7 +50,7 @@ def count(types = None, name = ''):
                         this_charac_value_counts[option][1][dom] += domdata[dtype][ch][option]
         results[ch] = sorted(this_charac_value_counts.items(), key=lambda x: x[1][0], reverse=True)
 
-    with open(f'data/values_counted{name}.json', 'w') as f:
+    with open(f"data/values_counted{name}{'_archonly' if archonly else ''}.json", 'w') as f:
         json.dump(results, f)
 
 count()
@@ -61,12 +65,14 @@ def count_inverse():
         for ch in characs:
             results[dom][ch] = {}
             for dtype in domdata:
+                if archonly and dtype == '':
+                    continue
                 if ch in domdata[dtype]:
                     for option in domdata[dtype][ch]:
                         if option not in results[dom][ch]:
                             results[dom][ch][option] = 0
                         results[dom][ch][option] += domdata[dtype][ch][option]
-    with open(f"data/values_counted_inverse.json", 'w') as f:
+    with open(f"data/values_counted_inverse{'_archonly' if archonly else ''}.json", 'w') as f:
         json.dump(results, f)
 
 count_inverse()
