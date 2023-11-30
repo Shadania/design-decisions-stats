@@ -29,3 +29,7 @@ Alternatively, use the `full_rq3.py` file, and find results for all tables in th
 ## Oldinputs
 
 The oldinputs folder is there because many tables require manual editing. They serve as examples and may not contain currently-valid data.
+
+# `sting.py`
+
+This script serves to double check database validity: namely, does it list all the comments and votes available for an issue?
