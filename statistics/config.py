@@ -4,7 +4,7 @@ model = {
     "version": "648f1f6f6b3fde4b1b3429cf"
 }
 
-db_url = "https://172.22.144.1:8000"
+db_url = "https://localhost:8000"
 
 keep_format = False
 
@@ -24,14 +24,12 @@ charac_categ = [
     "issue_type",
     "resolution",
     "status",
-    "has_pdf"
 ]
 charac_cont = [
     "description size",
     "comment count",
     "comment avg size",
     "duration",
-    "num_attachments",
     "votes",
     "watches",
 ]

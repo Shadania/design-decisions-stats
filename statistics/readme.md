@@ -35,6 +35,10 @@ The `isolate_big_values.py` script is intended to generate a quick-and-dirty ove
 
 The `big_value_ident.py` script is a permutation of `isolate_big_values.py` which requires the result data from the above to work properly. It counts, per characteristic in `[issue_type, status, resolution]` (which are the three pain point characteristics due to their variability between Jira instances and projects), per value of this characteristic, how many issues in this domain have this value for this characteristic.
 
+## Project-Specific Data
+
+For the thesis, this data was categorised by software domain. However, it is also interesting to go by project, though not feasible in the thesis itself. Therefore, `get_data_projects.py` gets this data and `parse_data_projects.py` formats it into tables.
+
 # Folders of Data
 
 *Note: `name` here refers to either empty-string for normal dataset or `_high_conf` for the exclusively high-confidence dataset*
