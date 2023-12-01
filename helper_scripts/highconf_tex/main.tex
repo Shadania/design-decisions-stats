@@ -1,0 +1,245 @@
+\documentclass[10pt,a4paper,twocolumn]{article}
+
+\usepackage[table]{xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+
+\begin{document}
+
+% rq1
+\newcommand{\domsubgraph}[2]{
+\begin{subfigure}{.55\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{rq1/#1_counts_high_conf.png}
+    \caption{#2}
+  \end{subfigure}
+}
+
+% rq3 mannwhitney
+\newcommand{\mwgraphsimple}[2]{
+\begin{figure*}
+    \centering
+    \makebox[\textwidth][c]{
+        \begin{subfigure}{\linewidth}
+            \centering
+            \includegraphics[width=\linewidth]{rq3_mw/#1_simple_high_conf_plot_arrows.png}
+            \caption{Grouped by decision type first and subgrouped by domain.}
+        \end{subfigure}
+    }
+
+    \makebox[\textwidth][c]{
+        \begin{subfigure}{\linewidth}
+            \centering
+            \includegraphics[width=\linewidth]{rq3_mw/#1_simple_inverted_high_conf_plot_arrows.png}
+            \caption{Grouped by domain first and subgrouped by decision type. (CM = Content Management, DSP = Data Storage and Processing, DC = DevOps and Cloud, SOAM = SOA and Middlewares, SDT = Software Development Tools, WD = Web Development)}
+        \end{subfigure}
+    }
+
+    \caption{Mann-Whitney test on the relations between #2, domain, and decision type contained in the issue, simple decision view.}
+    \label{fig:rq3_#1}
+\end{figure*}
+}
+
+\newcommand{\mwgraphintersected}[2]{
+\begin{figure*}
+    \centering
+    \makebox[\textwidth][c]{
+        \begin{subfigure}{\linewidth}
+            \centering
+            \includegraphics[width=\linewidth]{rq3_mw/#1_high_conf_plot_arrows.png}
+            \caption{Grouped by decision type first and subgrouped by domain.}
+        \end{subfigure}
+    }
+
+    \makebox[\textwidth][c]{
+        \begin{subfigure}{\linewidth}
+            \centering
+            \includegraphics[width=\linewidth]{rq3_mw/#1_inverted_high_conf_plot_arrows.png}
+            \caption{Grouped by domain first and subgrouped by decision type. (CM = Content Management, DSP = Data Storage and Processing, DC = DevOps and Cloud, SOAM = SOA and Middlewares, SDT = Software Development Tools, WD = Web Development)}
+        \end{subfigure}
+    }
+
+    \caption{Mann-Whitney test on the relations between #2, domain, and decision type contained in the issue, intersected decision view.}
+    \label{fig:rq3_#1}
+\end{figure*}
+}
+
+% rq2 chisq
+\newcommand{\domaintable}[3]{
+\begin{#3}[]
+    \centering
+\input{rq2_chisq/table_#1_high_conf.tex}
+    \caption{Chi-squared test results on the #2 characteristic per domain. (RQ2) (CM = Content Management, DSP = Data Storage and Processing, DC = DevOps and Cloud, SOAM = SOA and Middlewares, SDT = Software Development Tools, WD = Web Development)}
+    \label{tab:rq2_#1}
+\end{#3}
+}
+
+\newcommand{\chithreeone}[2]{
+\begin{table*}[]
+    \centering
+    \small
+\input{rq3_chisq/#1_intersected_high_conf.tex}
+    \caption{Chi-squared test results for the relation between the #2 issue characteristic and simple decision type contained in the issue, RQ3. \textcolor{blue}{intersected} (CM = Content Management, DSP = Data Storage and Processing, DC = DevOps and Cloud, SOAM = SOA and Middlewares, SDT = Software Development Tools, WD = Web Development)}
+    \label{tab:rq3_#1}
+\end{table*}
+}
+\newcommand{\chithreetwo}[2]{
+\begin{table}[]
+    \centering
+    \small
+\input{rq3_chisq/#1_simple_high_conf.tex}
+    \caption{Chi-squared test results for the relation between the #2 issue characteristic and simple decision type contained in the issue, RQ3. \textcolor{blue}{simple} (CM = Content Management, DSP = Data Storage and Processing, DC = DevOps and Cloud, SOAM = SOA and Middlewares, SDT = Software Development Tools, WD = Web Development)}
+    \label{tab:rq3_#1}
+\end{table}
+}
+\newcommand{\chithreethree}[2]{
+    \begin{table}[]
+        \centering
+        \small
+    \input{rq3_chisq/#1_simple_high_conf_full.tex}
+        \caption{Chi-squared test results for the relation between the #2 issue characteristic and simple decision type contained in the issue, RQ3. \textcolor{blue}{simple full-domain only} (CM = Content Management, DSP = Data Storage and Processing, DC = DevOps and Cloud, SOAM = SOA and Middlewares, SDT = Software Development Tools, WD = Web Development)}
+        \label{tab:rq3_#1}
+    \end{table}
+}
+\newcommand{\chithreefour}[2]{
+    \begin{table}[]
+        \centering
+        \small
+    \input{rq3_chisq/#1_simple_high_conf_not_full.tex}
+        \caption{Chi-squared test results for the relation between the #2 issue characteristic and simple decision type contained in the issue, RQ3. \textcolor{blue}{simple without full} (CM = Content Management, DSP = Data Storage and Processing, DC = DevOps and Cloud, SOAM = SOA and Middlewares, SDT = Software Development Tools, WD = Web Development)}
+        \label{tab:rq3_#1}
+    \end{table}
+}
+
+\section{RQ1}
+
+\begin{figure*}[!th]
+    \centering
+    \makebox[\textwidth][c]{
+        \domsubgraph{content management}{Content Management}
+        \domsubgraph{data storage & processing}{Data Storage \& Processing}
+      }
+    
+    \makebox[\textwidth][c]{
+        \domsubgraph{devops and cloud}{DevOps and Cloud}
+        \domsubgraph{soa and middlewares}{SOA and Middlewares}
+    }
+    
+    \makebox[\textwidth][c]{
+        \domsubgraph{software development tools}{Software Development Tools}
+        \domsubgraph{web development}{Web Development}
+    }
+      
+    \caption{Venn diagrams of the amount of issues divided over the design decision types, per domain (RQ1).}
+    \label{fig:rq1_domainspecific}
+\end{figure*}
+
+\begin{table*}[]
+    \centering
+\input{rq1/multi_high_conf.tex}
+    \caption{Chi-squared test results on decision types per domain, with intersected decision types. (RQ1) (CM = Content Management, DSP = Data Storage and Processing, DC = DevOps and Cloud, SOAM = SOA and Middlewares, SDT = Software Development Tools, WD = Web Development)}
+    \label{table:rq1_intersected}
+\end{table*}
+
+\begin{table}[]
+    \centering
+\input{rq1/single_high_conf.tex}
+    \caption{Chi-squared test results on decision types per domain, with simplified decision types. (RQ1) (CM = Content Management, DSP = Data Storage and Processing, DC = DevOps and Cloud, SOAM = SOA and Middlewares, SDT = Software Development Tools, WD = Web Development)}
+    \label{table:rq1_simplified}
+\end{table}
+
+\section{RQ2}
+
+\domaintable{hierarchy}{hierarchy}{table}
+\domaintable{issue_type}{issue\_type}{table}
+\domaintable{resolution}{resolution}{table*}
+\domaintable{status}{status}{table*}
+
+\begin{figure*}
+    \centering
+    \begin{subfigure}{.35\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{rq2_mw/domlegend.png}
+      \caption{Legend for the rest of the graphs in this figure.}
+    \end{subfigure}
+    \begin{subfigure}{.4\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{rq2_mw/comment avg size_high_conf_plot_arrows.png}
+      \caption{Comment Average Size.}
+    \end{subfigure}
+    
+    \begin{subfigure}{.4\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{rq2_mw/comment count_high_conf_plot_arrows.png}
+      \caption{Comment Count.}
+    \end{subfigure}
+    \begin{subfigure}{.4\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{rq2_mw/description size_high_conf_plot_arrows.png}
+      \caption{Description Size.}
+    \end{subfigure}
+    
+    \begin{subfigure}{.4\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{rq2_mw/duration_high_conf_plot_arrows.png}
+      \caption{Duration.}
+    \end{subfigure}
+    \begin{subfigure}{.4\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{rq2_mw/votes_high_conf_plot_arrows.png}
+      \caption{Votes.}
+    \end{subfigure}
+
+    \begin{subfigure}{.4\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{rq2_mw/watches_high_conf_plot_arrows.png}
+      \caption{Watches.}
+    \end{subfigure}
+      
+    \caption{Box plots of the continuous data issue characteristics. Arrows indicate significantly larger means according to the Mann-Whitney test. (RQ2)}
+    \label{fig:rq2_contvars}
+\end{figure*}
+
+\section{RQ3}
+
+\chithreeone{hierarchy}{hierarchy}
+\chithreetwo{hierarchy}{hierarchy}
+\chithreethree{hierarchy}{hierarchy}
+\chithreefour{hierarchy}{hierarchy}
+
+\chithreeone{issue_type}{issue\_type}
+\chithreetwo{issue_type}{issue\_type}
+\chithreethree{issue_type}{issue\_type}
+\chithreefour{issue_type}{issue\_type}
+
+\chithreeone{resolution}{resolution}
+\chithreetwo{resolution}{resolution}
+\chithreethree{resolution}{resolution}
+\chithreefour{resolution}{resolution}
+
+\chithreeone{status}{status}
+\chithreetwo{status}{status}
+\chithreethree{status}{status}
+\chithreefour{status}{status}
+
+\mwgraphsimple{description size}{description size}
+\mwgraphintersected{description size}{description size}
+
+\mwgraphsimple{comment count}{comment count}
+\mwgraphintersected{comment count}{comment count}
+
+\mwgraphsimple{comment avg size}{average comment size}
+\mwgraphintersected{comment avg size}{average comment size}
+
+\mwgraphsimple{duration}{duration}
+\mwgraphintersected{duration}{duration}
+
+\mwgraphsimple{votes}{votes}
+\mwgraphintersected{votes}{votes}
+
+\mwgraphsimple{watches}{watches}
+\mwgraphintersected{watches}{watches}
+
+
+\end{document}
