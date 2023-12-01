@@ -109,7 +109,7 @@ for m in modes:
                         if line.strip() == 'value/expected':
                             state = 'header'
                     case 'header':
-                        w.write(','.join(['Domain']+line.strip().split()[1:] + ['Non-arch']) + '\n')
+                        w.write(','.join(['Domain']+line.strip().split(',')[1:-1] + ['Non-arch']) + '\n')
                         state = 'body'
                     case 'body':
                         w.write(line)
