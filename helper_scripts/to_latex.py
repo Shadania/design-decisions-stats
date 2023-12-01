@@ -50,7 +50,7 @@ def process_value(value, minval, maxval):
         return replacement[value] if value in replacement else value
 
 def run(output="output", input='input.txt'):
-    with open('input.txt') as f:
+    with open(input) as f:
         values = [line.strip().replace('&', '\\&').split(',') for line in f.readlines()]
 
     with open(f'{output}.tex', 'w') as f:

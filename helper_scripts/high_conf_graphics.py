@@ -107,15 +107,12 @@ for m in modes:
                 match state:
                     case 'scan':
                         if line.strip() == 'value/expected':
-                            mode = 'header'
-                        continue
+                            state = 'header'
                     case 'header':
                         w.write(','.join(['Domain']+line.strip().split()[1:] + ['Non-arch']) + '\n')
-                        mode = 'body'
-                        continue
+                        state = 'body'
                     case 'body':
                         w.write(line)
-                        continue
     
     # to .tex
     run(output=f'highconf_tex/rq1/{m}_high_conf', input=txt)
