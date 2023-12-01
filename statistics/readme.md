@@ -29,7 +29,11 @@ Now that you have the data, you can run `rq1.py`, `rq2_3_chisq.py` and `rq2_3_ma
 
 ## Isolate Big Values
 
-The `isolate_big_values.py` script is intended to generate a quick-and-dirty overview of values for three pain-point characteristics in your dataset. The results from it end up in the `data` folder as `values_counted{suffix}.json`.
+The `isolate_big_values.py` script is intended to generate a quick-and-dirty overview of values for three pain-point characteristics in your dataset. The results from it end up in the `data` folder as `values_counted{suffix}{[_archonly]}.json`, with `archonly` being a settable boolean in the script itself.
+
+## Big Value Identification
+
+The `big_value_ident.py` script is a permutation of `isolate_big_values.py` which requires the result data from the above to work properly. It counts, per characteristic in `[issue_type, status, resolution]` (which are the three pain point characteristics due to their variability between Jira instances and projects), per value of this characteristic, how many issues in this domain have this value for this characteristic.
 
 # Folders of Data
 
