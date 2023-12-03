@@ -41,13 +41,21 @@ def get_duration(issue_dic):
 def count(conf_req = {"existence": 0, "executive": 0, "property": 0}, name = ""):
     ecosys = requests.get(f"{c.db_url}/projects", verify=False).json()
     projects = []
+    domains = {}
     for e in ecosys:
         # let's still keep to the "only significant projects" rule
         if 'merged_domain' in e['additional_properties']:
-            projects.append(f"{e['ecosystem']}-{e['key']}")
+            proj_key = f"{e['ecosystem']}-{e['key']}"
+            projects.append(proj_key)
+            dom = e['additional_properties']['merged_domain'][0]
+            if not dom in domains:
+                domains[dom] = []
+            domains[dom].append(proj_key)
 
     with open('data/projects/all.json', 'w') as f:
         json.dump(projects, f)
+    with open('data/projects/domain_projects.json', 'w') as f:
+        json.dump(domains, f)
     
     # per project, grab all issue IDs, and do counts
     proj_counts = {}
