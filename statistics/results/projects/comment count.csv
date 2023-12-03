@@ -1,239 +1,239 @@
-Project,First Quantile,Mean,Third Quantile,Standard Deviation,Total Issue Count
-Apache-TOMEE,0.00,1.38,1.00,3.26,3737
-RedHat-ACM,0.00,1.91,2.00,3.27,2126
-Apache-SM,0.00,1.30,1.00,2.05,4804
-Apache-CASSANDRA,2.00,7.00,8.00,9.71,18166
-Spring-BATCH,2.00,3.57,4.00,3.37,2598
-RedHat-TRACING,0.00,1.27,1.00,1.98,1882
-Apache-AURORA,1.00,2.27,3.00,2.90,1970
-RedHat-JBWS,1.00,2.20,3.00,2.65,3948
-Apache-AMBARI,2.00,3.24,4.00,2.94,25566
-Jira-JRACLOUD,1.00,3.38,2.00,14.66,29658
-Apache-BEAM,1.00,3.29,4.00,4.30,14551
-Apache-TEZ,1.00,6.02,8.00,7.37,4460
-RedHat-CRW,1.00,4.69,6.00,5.45,3070
-Apache-MNG,1.00,4.76,5.00,8.86,6362
-Apache-ZEPPELIN,1.00,5.07,7.00,7.91,5878
-Apache-KYLIN,1.00,3.98,5.00,6.03,5316
-Apache-SMX4,1.00,1.86,2.00,2.43,1905
-Apache-DELTASPIKE,0.00,2.52,3.00,3.79,1459
-Spring-ROO,1.00,2.41,3.00,3.01,3987
-RedHat-TEIIDDES,1.00,2.91,4.00,3.23,3099
-Apache-AVRO,1.00,5.11,6.00,7.38,3706
-Apache-SOLR,2.00,8.04,9.00,13.27,16520
-Apache-PARQUET,1.00,3.94,4.00,7.67,2237
-Apache-CAY,0.00,1.89,2.00,2.76,2789
-Apache-FLUME,1.00,4.46,6.00,6.11,3433
-Apache-CONNECTORS,1.00,5.69,6.00,10.11,1743
-RedHat-UNDERTOW,0.00,1.39,2.00,2.49,1989
-Jira-JSDCLOUD,0.00,3.39,2.00,15.18,8186
-Jira-JSDSERVER,0.00,2.67,2.00,12.15,8226
-Jira-SRCTREE,0.00,2.21,2.00,5.95,5491
-Apache-PIG,2.00,5.69,7.00,7.51,5356
-Apache-HOP,0.00,0.46,1.00,1.16,3145
-RedHat-ERRAI,0.00,1.13,1.00,1.62,1104
-RedHat-OADP,0.00,3.24,4.00,4.94,1002
-Apache-WICKET,1.00,3.93,5.00,5.49,7020
-Apache-ORC,1.00,3.17,4.00,5.47,1383
-Apache-STRATOS,1.00,1.56,2.00,2.14,1662
-RedHat-ODC,0.00,1.34,1.00,2.44,1998
-JiraEcosystem-PL,0.00,1.89,2.00,2.61,2889
-Apache-TAVERNA,0.00,1.00,1.00,2.94,1063
-Apache-IGNITE,0.00,3.09,4.00,4.55,18925
-RedHat-HAC,0.00,1.98,2.00,4.09,3012
-Jira-BSERV,0.00,2.64,3.00,7.20,8430
-Spring-DATACMNS,1.00,2.41,3.00,2.69,1781
-Apache-FELIX,1.00,2.95,4.00,3.61,6493
-Apache-SENTRY,1.00,4.87,6.00,6.25,2564
-RedHat-HAL,0.00,1.96,2.00,3.20,1671
-Apache-MSHARED,1.00,2.49,3.00,3.05,1168
-RedHat-ISPN,0.00,1.47,2.00,3.18,13628
-Apache-TRINIDAD,1.00,2.25,3.00,3.06,2561
-Apache-FOR,1.00,3.18,4.00,3.45,1251
-Apache-ARIES,1.00,2.38,3.00,3.44,2096
-Apache-JCLOUDS,1.00,3.88,4.25,5.76,1620
-Apache-GERONIMO,1.00,2.80,4.00,3.42,6744
-RedHat-MODE,2.00,4.42,6.00,4.68,2680
-Apache-HTTPCLIENT,2.00,5.77,7.00,7.48,2179
-Apache-HDDS,0.00,2.41,3.00,4.67,8059
-Apache-TOMAHAWK,1.00,2.24,3.00,2.85,1683
-RedHat-SWITCHYARD,1.00,3.16,4.00,3.96,3015
-Apache-FOP,2.00,4.50,5.00,5.94,3117
-RedHat-RESTEASY,0.00,2.32,3.00,4.25,3133
-RedHat-WINDUP,0.00,1.73,2.00,2.88,3455
-Apache-MRELEASE,1.00,3.72,5.00,4.77,1083
-Jira-BAM,0.00,1.94,2.00,4.13,15104
-Apache-OWB,1.00,2.33,3.00,3.71,1422
-Apache-TOBAGO,0.00,1.78,2.00,3.32,2187
-Apache-GOBBLIN,0.00,0.51,1.00,0.89,1792
-RedHat-GITOPS,0.00,1.57,2.00,2.41,1154
-JFrog-TCAP,0.00,0.21,0.00,1.05,1070
-RedHat-JBSEAM,1.00,2.50,3.00,3.29,5032
-Jira-I18N,1.00,2.25,3.00,2.65,1057
-RedHat-CEQ,0.00,0.78,0.00,1.64,1944
-Apache-PIVOT,0.00,3.75,5.00,5.97,1041
-Apache-BATIK,1.00,2.31,3.00,3.19,1351
-Spring-IDE,1.00,2.53,3.00,3.77,1386
-Apache-AMQ,1.00,3.26,4.00,4.17,7843
-RedHat-AF,0.00,1.05,1.00,2.57,2712
-Jira-CRUC,0.00,1.46,2.00,2.87,6784
-RedHat-THORN,0.00,2.28,3.00,3.55,2467
-Apache-KARAF,1.00,3.51,5.00,3.72,7482
-Jira-CONFCLOUD,1.00,3.03,2.00,9.38,26847
-Apache-OODT,1.00,3.91,5.00,4.05,1041
-Apache-AXIS2,1.00,2.97,4.00,3.38,5950
-Apache-HUDI,0.00,2.20,1.00,8.93,5863
-Apache-GROOVY,1.00,3.01,4.00,3.99,10716
-JiraEcosystem-AG,1.00,2.12,3.00,2.59,1486
-RedHat-ENTMQMAAS,0.00,1.10,2.00,1.65,2257
-Apache-DRILL,1.00,5.79,6.00,12.93,8367
-Apache-HDFS,3.00,11.61,15.00,13.72,16105
-RedHat-JBDS,2.00,5.12,6.00,5.99,4226
-RedHat-JBPAPP,1.00,4.03,5.00,4.52,5933
-JiraEcosystem-PLUG,0.00,1.67,2.00,2.63,1165
-Apache-NUTCH,2.00,6.25,8.00,7.78,2971
-Apache-ACCUMULO,1.00,4.87,6.00,7.56,4745
-Apache-COCOON,1.00,3.50,4.00,3.95,2366
-RedHat-SB,0.00,2.29,3.00,3.83,1320
-Apache-JS2,1.00,2.30,3.00,2.80,1355
-Spring-SWF,0.00,1.71,2.00,2.38,1668
-RedHat-JBESB,1.00,2.08,2.75,2.72,3890
-Apache-MRM,1.00,2.65,3.00,3.58,2016
-RedHat-JBIDE,1.00,4.16,5.00,5.17,27807
-RedHat-JBTM,0.00,1.98,3.00,3.06,3668
-RedHat-JWS,1.00,2.84,4.00,3.27,1042
-Apache-ROL,1.00,2.44,3.00,2.29,2137
-RedHat-JBAS,1.00,2.60,3.00,3.06,8394
-JFrog-RTFACT,0.00,0.83,1.00,1.93,16298
-Apache-IOTDB,0.00,0.70,1.00,1.39,5625
-Jira-BCLOUD,1.00,4.12,3.00,16.54,21282
-Apache-TAP5,1.00,3.05,4.00,4.96,2746
-Jira-JRASERVER,1.00,3.13,3.00,10.02,48731
-Apache-DIRMINA,1.00,4.44,5.00,6.06,1128
-RedHat-OCPPLAN,0.00,1.03,1.00,2.29,1355
-Apache-FLINK,1.00,5.73,6.00,10.84,31316
-Apache-METRON,0.00,6.63,8.00,14.97,2349
-Spring-DATAMONGO,1.00,2.71,4.00,2.56,2590
-Apache-LOG4J2,1.00,6.14,7.00,8.93,3632
-Apache-BOOKKEEPER,4.00,9.77,13.00,10.40,1095
-Apache-STR,1.00,3.04,4.00,3.61,3009
-Apache-YARN,2.00,12.60,17.00,15.17,11162
-RedHat-MON,0.00,2.02,3.00,3.19,1369
-Spring-SPR,2.00,3.83,5.00,3.48,17413
-RedHat-JBEAP,1.00,2.91,3.00,3.52,18048
-Apache-PHOENIX,2.00,7.76,9.00,11.32,6866
-Apache-JCR,1.00,3.29,4.00,4.68,4782
-Apache-FALCON,1.00,4.41,6.00,5.08,2343
-RedHat-WELD,0.00,2.24,3.00,3.57,2615
-Apache-BIGTOP,1.00,4.96,6.00,7.19,3899
-Apache-SSHD,1.00,3.53,4.00,5.74,1320
-RedHat-OSSM,0.00,2.09,3.00,3.19,2240
-JiraEcosystem-PLE,1.00,2.40,3.00,3.49,1499
-Apache-SCB,0.00,2.91,3.00,7.24,2747
-Apache-SLIDER,1.00,3.76,4.00,5.58,1265
-RedHat-RFE,0.00,0.46,1.00,1.14,1617
-Jira-OPSGENIE,0.00,0.61,1.00,1.44,1284
-RedHat-QUARKUS,1.00,3.39,4.00,4.35,1587
-RedHat-ENTESB,1.00,2.71,3.00,3.63,14750
-RedHat-FUSETOOLS,1.00,2.86,3.00,3.72,3431
-Apache-RAVE,0.00,1.79,2.00,2.59,1286
-Apache-HIVE,1.00,6.96,10.00,8.83,27005
-Apache-KNOX,1.00,2.99,3.00,4.16,2879
-Apache-NETBEANS,0.00,2.26,2.00,11.00,6306
-Apache-SLING,1.00,2.80,3.00,4.28,11766
-Spring-STS,1.00,3.23,4.00,4.05,4407
-Apache-WW,1.00,4.20,5.00,5.79,5222
-Jira-CLOUD,0.00,1.81,2.00,17.26,7831
-Apache-AIRAVATA,1.00,3.23,3.00,8.72,3675
-Apache-CALCITE,2.00,5.28,7.00,6.07,5554
-Apache-XALANJ,1.00,3.84,5.00,3.78,2635
-Apache-CLOUDSTACK,1.00,6.14,6.00,13.99,10344
-Spring-DATAREDIS,1.00,2.21,3.00,2.01,1257
-RedHat-APIMAN,0.00,1.24,1.00,2.59,1336
-Apache-DIRSERVER,1.00,3.61,5.00,4.72,2295
-JiraEcosystem-ACJIRA,0.00,2.59,3.00,4.74,2116
-Apache-GEODE,1.00,4.53,5.00,8.73,10424
-Apache-JUDDI,1.00,2.73,3.00,4.25,1018
-JiraEcosystem-AMPS,0.00,1.87,2.00,2.74,1514
-RedHat-KATA,0.00,3.00,4.00,5.45,1125
-RedHat-OPECO,0.00,0.98,1.00,1.39,1082
-Apache-STORM,0.00,5.39,5.00,14.98,3844
-RedHat-EJBTHREE,0.00,1.26,2.00,2.10,2190
-Apache-DIRSTUDIO,1.00,3.21,4.00,3.43,1290
-JiraEcosystem-FRGE,0.00,1.53,2.00,2.59,1155
-Apache-SYNAPSE,1.00,3.07,4.00,2.94,1120
-RedHat-SDN,0.00,1.37,2.00,2.31,1561
-Apache-OAK,2.00,4.15,5.00,4.98,10090
-RedHat-ENTMQBR,0.00,1.38,2.00,2.38,4572
-Sonatype-NEXUS,1.00,2.50,3.00,3.37,11187
-RedHat-SRVKP,0.00,1.62,2.00,2.28,1470
-Apache-UIMA,0.00,1.81,2.00,3.29,6479
-Apache-CONTINUUM,1.00,2.30,3.00,2.72,2724
-Spring-DATAES,1.00,2.30,3.00,2.73,1003
-RedHat-HAWKULAR,0.00,2.72,3.00,4.69,1309
-Jira-CLOV,0.00,1.50,2.00,2.88,1501
-RedHat-JGRP,1.00,3.00,4.00,4.00,2559
-Apache-LENS,1.00,5.32,7.00,5.94,1451
-JiraEcosystem-AUI,0.00,1.37,2.00,2.65,4225
-Apache-OPENEJB,0.00,1.49,2.00,2.36,2047
-Apache-HBASE,3.00,11.76,15.00,15.84,27458
-RedHat-DBZ,1.00,3.74,5.00,4.92,5800
-RedHat-CLOUD,1.00,2.62,3.00,4.73,2311
-Spring-XD,0.00,1.11,1.00,1.62,3707
-Spring-DATAJPA,1.00,3.65,5.00,4.07,1687
-Apache-APEXMALHAR,0.00,3.32,4.00,6.47,2041
-RedHat-DEVELOPER,1.00,4.35,5.00,25.83,5435
-Apache-CXF,0.00,2.58,3.00,4.64,8717
-Apache-ASTERIXDB,1.00,2.64,3.00,3.67,3119
-Apache-HADOOP,2.00,10.22,13.00,12.71,16366
-JiraEcosystem-UPM,0.00,1.71,2.00,2.81,3767
-JiraEcosystem-APL,0.00,1.24,2.00,1.78,1270
-Spring-DATAGRAPH,1.00,2.30,3.00,2.34,1465
-RedHat-CNV,0.00,0.75,1.00,1.94,2932
-Apache-TIKA,1.00,5.40,6.00,7.74,3975
-Sonatype-MVNCENTRAL,1.00,3.09,4.00,3.57,1668
-Apache-DERBY,2.00,8.61,10.00,11.77,7142
-Apache-ATLAS,1.00,2.64,3.00,3.21,4677
-Apache-RANGER,1.00,2.10,2.00,3.23,4117
-Apache-CMIS,1.00,2.17,3.00,2.77,1097
-Apache-BEEHIVE,2.00,3.19,4.00,2.31,1231
-Jira-CONFSERVER,1.00,2.99,3.00,8.13,45081
-Apache-SUREFIRE,1.00,4.87,5.00,8.34,2138
-Jira-FE,0.00,1.64,2.00,2.82,5590
-Apache-MYFACES,1.00,2.75,3.00,3.95,4216
-MongoDB-JAVA,1.00,2.85,3.00,3.85,4481
-Spring-INT,1.00,2.17,3.00,2.77,4494
-Sonatype-OSSRH,2.00,4.12,5.00,3.21,87533
-Apache-ARTEMIS,1.00,5.04,6.00,7.94,4094
-JiraEcosystem-AC,0.00,2.51,3.00,5.94,1555
-JFrog-HAP,0.00,1.37,2.00,2.70,1294
-Apache-SHINDIG,1.00,3.18,4.00,3.67,1979
-Apache-REEF,1.00,3.25,4.00,6.46,2066
-Apache-HAMA,2.00,6.57,8.00,8.91,1006
-Apache-TAJO,2.00,7.40,9.00,8.39,2183
-RedHat-WFLY,0.00,2.39,3.00,3.91,14646
-Apache-PDFBOX,2.00,8.01,8.00,42.21,5562
-Apache-XERCESJ,1.00,2.56,3.00,3.00,1746
-Apache-AXIS,1.00,3.02,4.00,3.81,2922
-Apache-TUSCANY,1.00,2.72,3.00,2.71,4082
-RedHat-ARQ,1.00,1.85,2.00,2.55,2175
-Spring-DATAREST,1.00,2.80,4.00,3.20,1565
-Apache-IVY,1.00,2.83,3.00,3.76,1630
-RedHat-ENTMQST,0.00,1.60,2.00,1.95,3141
-Spring-SWS,2.00,3.44,4.00,3.12,1041
-Apache-STANBOL,1.00,1.86,2.00,2.61,1473
-Apache-SQOOP,1.00,5.02,7.00,5.35,3152
-Apache-OLINGO,1.00,2.82,3.00,3.98,1592
-RedHat-FORGE,0.00,1.55,2.00,2.62,2636
-Apache-OPENJPA,1.00,3.18,4.00,4.47,2903
-RedHat-AS7,0.00,2.51,3.00,3.72,5427
-RedHat-TEIID,1.00,3.50,4.00,4.25,5775
-Apache-TAPESTRY,0.00,1.79,2.00,2.25,2499
-Apache-EAGLE,1.00,3.29,4.00,4.46,1097
-Apache-MAPREDUCE,2.00,9.77,14.00,11.40,7109
-Apache-JSPWIKI,2.00,4.64,6.00,5.53,1057
-Apache-ZOOKEEPER,1.00,8.29,9.00,14.79,4485
-Apache-CAMEL,1.00,2.94,4.00,4.37,19066
-RedHat-ENTMQ,1.00,2.19,3.00,2.53,1480
-RedHat-RHCLOUD,0.00,1.78,2.00,2.90,3959
-Apache-LUCENE,4.00,10.29,12.00,14.27,10630
+Project,Domain,First Quantile,Mean,Third Quantile,Standard Deviation,Total Issue Count
+Apache-TOMEE,web development,0.00,0.00,1.00,3.26,3737
+RedHat-ACM,devops and cloud,0.00,1.00,2.00,3.27,2126
+Apache-SM,soa and middlewares,0.00,1.00,1.00,2.05,4804
+Apache-CASSANDRA,data storage & processing,2.00,4.00,8.00,9.71,18166
+Spring-BATCH,data storage & processing,2.00,3.00,4.00,3.37,2598
+RedHat-TRACING,devops and cloud,0.00,1.00,1.00,1.98,1882
+Apache-AURORA,devops and cloud,1.00,1.00,3.00,2.90,1970
+RedHat-JBWS,soa and middlewares,1.00,2.00,3.00,2.65,3948
+Apache-AMBARI,data storage & processing,2.00,3.00,4.00,2.94,25566
+Jira-JRACLOUD,content management,1.00,1.00,2.00,14.66,29658
+Apache-BEAM,data storage & processing,1.00,2.00,4.00,4.30,14551
+Apache-TEZ,data storage & processing,1.00,4.00,8.00,7.37,4460
+RedHat-CRW,software development tools,1.00,3.00,6.00,5.45,3070
+Apache-MNG,software development tools,1.00,2.00,5.00,8.86,6362
+Apache-ZEPPELIN,data storage & processing,1.00,2.00,7.00,7.91,5878
+Apache-KYLIN,data storage & processing,1.00,2.00,5.00,6.03,5316
+Apache-SMX4,soa and middlewares,1.00,1.00,2.00,2.43,1905
+Apache-DELTASPIKE,web development,0.00,1.00,3.00,3.79,1459
+Spring-ROO,software development tools,1.00,1.00,3.00,3.01,3987
+RedHat-TEIIDDES,data storage & processing,1.00,2.00,4.00,3.23,3099
+Apache-AVRO,data storage & processing,1.00,3.00,6.00,7.38,3706
+Apache-SOLR,content management,2.00,4.00,9.00,13.27,16520
+Apache-PARQUET,data storage & processing,1.00,2.00,4.00,7.67,2237
+Apache-CAY,data storage & processing,0.00,1.00,2.00,2.76,2789
+Apache-FLUME,data storage & processing,1.00,3.00,6.00,6.11,3433
+Apache-CONNECTORS,content management,1.00,3.00,6.00,10.11,1743
+RedHat-UNDERTOW,web development,0.00,0.00,2.00,2.49,1989
+Jira-JSDCLOUD,content management,0.00,1.00,2.00,15.18,8186
+Jira-JSDSERVER,content management,0.00,1.00,2.00,12.15,8226
+Jira-SRCTREE,software development tools,0.00,1.00,2.00,5.95,5491
+Apache-PIG,data storage & processing,2.00,4.00,7.00,7.51,5356
+Apache-HOP,data storage & processing,0.00,0.00,1.00,1.16,3145
+RedHat-ERRAI,web development,0.00,1.00,1.00,1.62,1104
+RedHat-OADP,devops and cloud,0.00,1.00,4.00,4.94,1002
+Apache-WICKET,web development,1.00,2.00,5.00,5.49,7020
+Apache-ORC,data storage & processing,1.00,1.00,4.00,5.47,1383
+Apache-STRATOS,devops and cloud,1.00,1.00,2.00,2.14,1662
+RedHat-ODC,software development tools,0.00,1.00,1.00,2.44,1998
+JiraEcosystem-PL,software development tools,0.00,1.00,2.00,2.61,2889
+Apache-TAVERNA,data storage & processing,0.00,0.00,1.00,2.94,1063
+Apache-IGNITE,data storage & processing,0.00,2.00,4.00,4.55,18925
+RedHat-HAC,devops and cloud,0.00,0.00,2.00,4.09,3012
+Jira-BSERV,software development tools,0.00,1.00,3.00,7.20,8430
+Spring-DATACMNS,data storage & processing,1.00,1.00,3.00,2.69,1781
+Apache-FELIX,soa and middlewares,1.00,2.00,4.00,3.61,6493
+Apache-SENTRY,data storage & processing,1.00,3.00,6.00,6.25,2564
+RedHat-HAL,web development,0.00,1.00,2.00,3.20,1671
+Apache-MSHARED,software development tools,1.00,2.00,3.00,3.05,1168
+RedHat-ISPN,data storage & processing,0.00,0.00,2.00,3.18,13628
+Apache-TRINIDAD,web development,1.00,1.00,3.00,3.06,2561
+Apache-FOR,content management,1.00,2.00,4.00,3.45,1251
+Apache-ARIES,soa and middlewares,1.00,1.00,3.00,3.44,2096
+Apache-JCLOUDS,devops and cloud,1.00,2.00,4.25,5.76,1620
+Apache-GERONIMO,web development,1.00,2.00,4.00,3.42,6744
+RedHat-MODE,data storage & processing,2.00,3.00,6.00,4.68,2680
+Apache-HTTPCLIENT,soa and middlewares,2.00,3.00,7.00,7.48,2179
+Apache-HDDS,data storage & processing,0.00,1.00,3.00,4.67,8059
+Apache-TOMAHAWK,web development,1.00,1.00,3.00,2.85,1683
+RedHat-SWITCHYARD,soa and middlewares,1.00,2.00,4.00,3.96,3015
+Apache-FOP,content management,2.00,3.00,5.00,5.94,3117
+RedHat-RESTEASY,soa and middlewares,0.00,1.00,3.00,4.25,3133
+RedHat-WINDUP,software development tools,0.00,1.00,2.00,2.88,3455
+Apache-MRELEASE,software development tools,1.00,2.00,5.00,4.77,1083
+Jira-BAM,devops and cloud,0.00,1.00,2.00,4.13,15104
+Apache-OWB,web development,1.00,1.00,3.00,3.71,1422
+Apache-TOBAGO,web development,0.00,1.00,2.00,3.32,2187
+Apache-GOBBLIN,data storage & processing,0.00,0.00,1.00,0.89,1792
+RedHat-GITOPS,devops and cloud,0.00,1.00,2.00,2.41,1154
+JFrog-TCAP,devops and cloud,0.00,0.00,0.00,1.05,1070
+RedHat-JBSEAM,web development,1.00,1.00,3.00,3.29,5032
+Jira-I18N,software development tools,1.00,2.00,3.00,2.65,1057
+RedHat-CEQ,soa and middlewares,0.00,0.00,0.00,1.64,1944
+Apache-PIVOT,web development,0.00,2.00,5.00,5.97,1041
+Apache-BATIK,content management,1.00,1.00,3.00,3.19,1351
+Spring-IDE,software development tools,1.00,2.00,3.00,3.77,1386
+Apache-AMQ,soa and middlewares,1.00,2.00,4.00,4.17,7843
+RedHat-AF,software development tools,0.00,0.00,1.00,2.57,2712
+Jira-CRUC,software development tools,0.00,1.00,2.00,2.87,6784
+RedHat-THORN,web development,0.00,1.00,3.00,3.55,2467
+Apache-KARAF,devops and cloud,1.00,2.00,5.00,3.72,7482
+Jira-CONFCLOUD,content management,1.00,1.00,2.00,9.38,26847
+Apache-OODT,data storage & processing,1.00,3.00,5.00,4.05,1041
+Apache-AXIS2,soa and middlewares,1.00,2.00,4.00,3.38,5950
+Apache-HUDI,data storage & processing,0.00,0.00,1.00,8.93,5863
+Apache-GROOVY,software development tools,1.00,2.00,4.00,3.99,10716
+JiraEcosystem-AG,content management,1.00,1.00,3.00,2.59,1486
+RedHat-ENTMQMAAS,soa and middlewares,0.00,1.00,2.00,1.65,2257
+Apache-DRILL,data storage & processing,1.00,2.00,6.00,12.93,8367
+Apache-HDFS,data storage & processing,3.00,8.00,15.00,13.72,16105
+RedHat-JBDS,software development tools,2.00,3.00,6.00,5.99,4226
+RedHat-JBPAPP,web development,1.00,3.00,5.00,4.52,5933
+JiraEcosystem-PLUG,software development tools,0.00,1.00,2.00,2.63,1165
+Apache-NUTCH,web development,2.00,4.00,8.00,7.78,2971
+Apache-ACCUMULO,data storage & processing,1.00,2.00,6.00,7.56,4745
+Apache-COCOON,web development,1.00,2.00,4.00,3.95,2366
+RedHat-SB,devops and cloud,0.00,1.00,3.00,3.83,1320
+Apache-JS2,web development,1.00,1.00,3.00,2.80,1355
+Spring-SWF,web development,0.00,1.00,2.00,2.38,1668
+RedHat-JBESB,soa and middlewares,1.00,1.00,2.75,2.72,3890
+Apache-MRM,software development tools,1.00,2.00,3.00,3.58,2016
+RedHat-JBIDE,software development tools,1.00,3.00,5.00,5.17,27807
+RedHat-JBTM,soa and middlewares,0.00,1.00,3.00,3.06,3668
+RedHat-JWS,web development,1.00,2.00,4.00,3.27,1042
+Apache-ROL,content management,1.00,2.00,3.00,2.29,2137
+RedHat-JBAS,web development,1.00,2.00,3.00,3.06,8394
+JFrog-RTFACT,devops and cloud,0.00,0.00,1.00,1.93,16298
+Apache-IOTDB,data storage & processing,0.00,0.00,1.00,1.39,5625
+Jira-BCLOUD,software development tools,1.00,2.00,3.00,16.54,21282
+Apache-TAP5,web development,1.00,2.00,4.00,4.96,2746
+Jira-JRASERVER,content management,1.00,1.00,3.00,10.02,48731
+Apache-DIRMINA,soa and middlewares,1.00,2.00,5.00,6.06,1128
+RedHat-OCPPLAN,devops and cloud,0.00,0.00,1.00,2.29,1355
+Apache-FLINK,data storage & processing,1.00,3.00,6.00,10.84,31316
+Apache-METRON,data storage & processing,0.00,3.00,8.00,14.97,2349
+Spring-DATAMONGO,data storage & processing,1.00,2.00,4.00,2.56,2590
+Apache-LOG4J2,software development tools,1.00,3.00,7.00,8.93,3632
+Apache-BOOKKEEPER,data storage & processing,4.00,6.00,13.00,10.40,1095
+Apache-STR,web development,1.00,2.00,4.00,3.61,3009
+Apache-YARN,data storage & processing,2.00,8.00,17.00,15.17,11162
+RedHat-MON,devops and cloud,0.00,1.00,3.00,3.19,1369
+Spring-SPR,web development,2.00,3.00,5.00,3.48,17413
+RedHat-JBEAP,web development,1.00,2.00,3.00,3.52,18048
+Apache-PHOENIX,data storage & processing,2.00,4.00,9.00,11.32,6866
+Apache-JCR,content management,1.00,2.00,4.00,4.68,4782
+Apache-FALCON,data storage & processing,1.00,3.00,6.00,5.08,2343
+RedHat-WELD,web development,0.00,1.00,3.00,3.57,2615
+Apache-BIGTOP,data storage & processing,1.00,3.00,6.00,7.19,3899
+Apache-SSHD,soa and middlewares,1.00,2.00,4.00,5.74,1320
+RedHat-OSSM,devops and cloud,0.00,1.00,3.00,3.19,2240
+JiraEcosystem-PLE,software development tools,1.00,1.00,3.00,3.49,1499
+Apache-SCB,devops and cloud,0.00,0.00,3.00,7.24,2747
+Apache-SLIDER,data storage & processing,1.00,2.00,4.00,5.58,1265
+RedHat-RFE,devops and cloud,0.00,0.00,1.00,1.14,1617
+Jira-OPSGENIE,devops and cloud,0.00,0.00,1.00,1.44,1284
+RedHat-QUARKUS,devops and cloud,1.00,2.00,4.00,4.35,1587
+RedHat-ENTESB,soa and middlewares,1.00,2.00,3.00,3.63,14750
+RedHat-FUSETOOLS,software development tools,1.00,2.00,3.00,3.72,3431
+Apache-RAVE,web development,0.00,1.00,2.00,2.59,1286
+Apache-HIVE,data storage & processing,1.00,4.00,10.00,8.83,27005
+Apache-KNOX,soa and middlewares,1.00,2.00,3.00,4.16,2879
+Apache-NETBEANS,software development tools,0.00,1.00,2.00,11.00,6306
+Apache-SLING,web development,1.00,1.00,3.00,4.28,11766
+Spring-STS,software development tools,1.00,2.00,4.00,4.05,4407
+Apache-WW,web development,1.00,2.00,5.00,5.79,5222
+Jira-CLOUD,devops and cloud,0.00,1.00,2.00,17.26,7831
+Apache-AIRAVATA,soa and middlewares,1.00,2.00,3.00,8.72,3675
+Apache-CALCITE,data storage & processing,2.00,3.00,7.00,6.07,5554
+Apache-XALANJ,content management,1.00,3.00,5.00,3.78,2635
+Apache-CLOUDSTACK,devops and cloud,1.00,3.00,6.00,13.99,10344
+Spring-DATAREDIS,data storage & processing,1.00,1.00,3.00,2.01,1257
+RedHat-APIMAN,soa and middlewares,0.00,0.00,1.00,2.59,1336
+Apache-DIRSERVER,soa and middlewares,1.00,2.00,5.00,4.72,2295
+JiraEcosystem-ACJIRA,software development tools,0.00,1.00,3.00,4.74,2116
+Apache-GEODE,data storage & processing,1.00,2.00,5.00,8.73,10424
+Apache-JUDDI,soa and middlewares,1.00,2.00,3.00,4.25,1018
+JiraEcosystem-AMPS,software development tools,0.00,1.00,2.00,2.74,1514
+RedHat-KATA,devops and cloud,0.00,1.00,4.00,5.45,1125
+RedHat-OPECO,devops and cloud,0.00,1.00,1.00,1.39,1082
+Apache-STORM,data storage & processing,0.00,1.00,5.00,14.98,3844
+RedHat-EJBTHREE,soa and middlewares,0.00,1.00,2.00,2.10,2190
+Apache-DIRSTUDIO,soa and middlewares,1.00,2.00,4.00,3.43,1290
+JiraEcosystem-FRGE,software development tools,0.00,1.00,2.00,2.59,1155
+Apache-SYNAPSE,soa and middlewares,1.00,2.00,4.00,2.94,1120
+RedHat-SDN,devops and cloud,0.00,1.00,2.00,2.31,1561
+Apache-OAK,content management,2.00,3.00,5.00,4.98,10090
+RedHat-ENTMQBR,soa and middlewares,0.00,1.00,2.00,2.38,4572
+Sonatype-NEXUS,devops and cloud,1.00,1.00,3.00,3.37,11187
+RedHat-SRVKP,devops and cloud,0.00,1.00,2.00,2.28,1470
+Apache-UIMA,content management,0.00,1.00,2.00,3.29,6479
+Apache-CONTINUUM,software development tools,1.00,1.00,3.00,2.72,2724
+Spring-DATAES,data storage & processing,1.00,1.00,3.00,2.73,1003
+RedHat-HAWKULAR,devops and cloud,0.00,1.00,3.00,4.69,1309
+Jira-CLOV,software development tools,0.00,1.00,2.00,2.88,1501
+RedHat-JGRP,soa and middlewares,1.00,2.00,4.00,4.00,2559
+Apache-LENS,data storage & processing,1.00,4.00,7.00,5.94,1451
+JiraEcosystem-AUI,software development tools,0.00,1.00,2.00,2.65,4225
+Apache-OPENEJB,soa and middlewares,0.00,1.00,2.00,2.36,2047
+Apache-HBASE,data storage & processing,3.00,7.00,15.00,15.84,27458
+RedHat-DBZ,data storage & processing,1.00,2.00,5.00,4.92,5800
+RedHat-CLOUD,devops and cloud,1.00,1.00,3.00,4.73,2311
+Spring-XD,data storage & processing,0.00,1.00,1.00,1.62,3707
+Spring-DATAJPA,data storage & processing,1.00,3.00,5.00,4.07,1687
+Apache-APEXMALHAR,data storage & processing,0.00,2.00,4.00,6.47,2041
+RedHat-DEVELOPER,web development,1.00,2.00,5.00,25.83,5435
+Apache-CXF,soa and middlewares,0.00,1.00,3.00,4.64,8717
+Apache-ASTERIXDB,data storage & processing,1.00,2.00,3.00,3.67,3119
+Apache-HADOOP,data storage & processing,2.00,7.00,13.00,12.71,16366
+JiraEcosystem-UPM,devops and cloud,0.00,1.00,2.00,2.81,3767
+JiraEcosystem-APL,software development tools,0.00,1.00,2.00,1.78,1270
+Spring-DATAGRAPH,data storage & processing,1.00,1.00,3.00,2.34,1465
+RedHat-CNV,devops and cloud,0.00,0.00,1.00,1.94,2932
+Apache-TIKA,content management,1.00,3.00,6.00,7.74,3975
+Sonatype-MVNCENTRAL,devops and cloud,1.00,2.00,4.00,3.57,1668
+Apache-DERBY,data storage & processing,2.00,5.00,10.00,11.77,7142
+Apache-ATLAS,data storage & processing,1.00,2.00,3.00,3.21,4677
+Apache-RANGER,data storage & processing,1.00,1.00,2.00,3.23,4117
+Apache-CMIS,content management,1.00,1.00,3.00,2.77,1097
+Apache-BEEHIVE,web development,2.00,3.00,4.00,2.31,1231
+Jira-CONFSERVER,content management,1.00,1.00,3.00,8.13,45081
+Apache-SUREFIRE,software development tools,1.00,2.00,5.00,8.34,2138
+Jira-FE,software development tools,0.00,1.00,2.00,2.82,5590
+Apache-MYFACES,web development,1.00,2.00,3.00,3.95,4216
+MongoDB-JAVA,data storage & processing,1.00,2.00,3.00,3.85,4481
+Spring-INT,soa and middlewares,1.00,1.00,3.00,2.77,4494
+Sonatype-OSSRH,devops and cloud,2.00,3.00,5.00,3.21,87533
+Apache-ARTEMIS,soa and middlewares,1.00,3.00,6.00,7.94,4094
+JiraEcosystem-AC,software development tools,0.00,1.00,3.00,5.94,1555
+JFrog-HAP,devops and cloud,0.00,0.00,2.00,2.70,1294
+Apache-SHINDIG,web development,1.00,2.00,4.00,3.67,1979
+Apache-REEF,data storage & processing,1.00,2.00,4.00,6.46,2066
+Apache-HAMA,data storage & processing,2.00,4.00,8.00,8.91,1006
+Apache-TAJO,data storage & processing,2.00,6.00,9.00,8.39,2183
+RedHat-WFLY,web development,0.00,1.00,3.00,3.91,14646
+Apache-PDFBOX,content management,2.00,4.00,8.00,42.21,5562
+Apache-XERCESJ,content management,1.00,2.00,3.00,3.00,1746
+Apache-AXIS,soa and middlewares,1.00,2.00,4.00,3.81,2922
+Apache-TUSCANY,soa and middlewares,1.00,2.00,3.00,2.71,4082
+RedHat-ARQ,software development tools,1.00,1.00,2.00,2.55,2175
+Spring-DATAREST,data storage & processing,1.00,1.00,4.00,3.20,1565
+Apache-IVY,software development tools,1.00,2.00,3.00,3.76,1630
+RedHat-ENTMQST,soa and middlewares,0.00,1.00,2.00,1.95,3141
+Spring-SWS,soa and middlewares,2.00,3.00,4.00,3.12,1041
+Apache-STANBOL,content management,1.00,1.00,2.00,2.61,1473
+Apache-SQOOP,data storage & processing,1.00,4.00,7.00,5.35,3152
+Apache-OLINGO,soa and middlewares,1.00,2.00,3.00,3.98,1592
+RedHat-FORGE,software development tools,0.00,1.00,2.00,2.62,2636
+Apache-OPENJPA,data storage & processing,1.00,2.00,4.00,4.47,2903
+RedHat-AS7,web development,0.00,1.00,3.00,3.72,5427
+RedHat-TEIID,data storage & processing,1.00,2.00,4.00,4.25,5775
+Apache-TAPESTRY,web development,0.00,1.00,2.00,2.25,2499
+Apache-EAGLE,data storage & processing,1.00,2.00,4.00,4.46,1097
+Apache-MAPREDUCE,data storage & processing,2.00,7.00,14.00,11.40,7109
+Apache-JSPWIKI,content management,2.00,3.00,6.00,5.53,1057
+Apache-ZOOKEEPER,devops and cloud,1.00,4.00,9.00,14.79,4485
+Apache-CAMEL,soa and middlewares,1.00,2.00,4.00,4.37,19066
+RedHat-ENTMQ,soa and middlewares,1.00,2.00,3.00,2.53,1480
+RedHat-RHCLOUD,devops and cloud,0.00,1.00,2.00,2.90,3959
+Apache-LUCENE,content management,4.00,6.00,12.00,14.27,10630

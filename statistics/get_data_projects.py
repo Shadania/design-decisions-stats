@@ -57,6 +57,8 @@ def count(conf_req = {"existence": 0, "executive": 0, "property": 0}, name = "")
     with open('data/projects/domain_projects.json', 'w') as f:
         json.dump(domains, f)
     
+    print("Projects and domains got. Getting project issues...")
+
     # per project, grab all issue IDs, and do counts
     proj_counts = {}
     for proj in projects:

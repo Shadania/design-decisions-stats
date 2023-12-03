@@ -11,19 +11,29 @@ def run(name=''):
         projects = json.load(f)
 
     proj_counts = {}
+    domain_projects = {}
     for proj in projects:
         with open(f'data/projects/{proj}_counts{name}.json') as f:
             proj_counts[proj] = json.load(f)
+    with open(f"data/projects/domain_projects.json") as f:
+        domain_projects = json.load(f)
     with open(f"results/projects/counts{name}.csv", 'w') as f:
         with open(f"results/projects/counts{name}_percents.csv", 'w') as w:
             # header
-            header = 'Project' + ',' + ','.join(c.dtypes_short)
+            header = 'Project,Domain,' + ','.join(c.dtypes_short)
             f.write(header+',Total\n')
             w.write(header+'\n')
             # all projects
             for proj in projects:
-                f.write(proj + ',')
-                w.write(proj + ',')
+                domain = None
+                for dom in domain_projects:
+                    if proj in domain_projects[dom]:
+                        domain = dom
+                        break
+                if domain is None:
+                    domain = ""
+                f.write(f"{proj},{domain},")
+                w.write(f"{proj},{domain},")
                 this_line = []
                 this_total = 0
                 for dt in c.dtypes:
@@ -45,13 +55,20 @@ def run(name=''):
                         all_values.append(value)
         with open(f"results/projects/{char}{name}.csv", 'w') as f:
             with open(f"results/projects/{char}{name}_percents.csv", 'w') as w:
-                header = char + ',' + ','.join(all_values)
+                header = f"Project,Domain," + ','.join(all_values)
                 f.write(header + ',Total\n')
                 w.write(header + '\n')
 
                 for proj in proj_chars:
-                    f.write(proj+',')
-                    w.write(proj+',')
+                    domain = None
+                    for dom in domain_projects:
+                        if proj in domain_projects[dom]:
+                            domain = dom
+                            break
+                    if domain is None:
+                        domain = ""
+                    f.write(f"{proj},{domain},")
+                    w.write(f"{proj},{domain},")
                     this_line = []
                     this_total = 0
                     for val in all_values:
@@ -73,12 +90,19 @@ def run(name=''):
         # we are just gonna write down the (first q, )mean(, third q) and standard deviation
         # also total issue count just to have it there too
         with open(f"results/projects/{char}{name}.csv", 'w') as f:
-            f.write(f"Project,First Quantile,Mean,Third Quantile,Standard Deviation,Total Issue Count\n")
+            f.write(f"Project,Domain,First Quantile,Mean,Third Quantile,Standard Deviation,Total Issue Count\n")
             for proj in projects:
-                f.write(proj+',')
+                domain = None
+                for dom in domain_projects:
+                    if proj in domain_projects[dom]:
+                        domain = dom
+                        break
+                if domain is None:
+                    domain = ""
+                f.write(f"{proj},{domain},")
                 values = [
                     floatformat.format(np.quantile(proj_chars[proj], 0.25)),
-                    floatformat.format(np.mean(proj_chars[proj])),
+                    floatformat.format(np.quantile(proj_chars[proj], 0.5)),
                     floatformat.format(np.quantile(proj_chars[proj], 0.75)),
                     floatformat.format(np.std(proj_chars[proj])),
                     str(len(proj_chars[proj]))

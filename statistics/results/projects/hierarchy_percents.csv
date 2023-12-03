@@ -1,239 +1,239 @@
-hierarchy,Independent,Child,Parent
-Apache-TOMEE,76.69%,22.34%,0.96%
-RedHat-ACM,88.01%,8.75%,3.25%
-Apache-SM,96.77%,2.27%,0.96%
-Apache-CASSANDRA,95.38%,3.83%,0.79%
-Spring-BATCH,94.92%,3.85%,1.23%
-RedHat-TRACING,90.70%,7.28%,2.02%
-Apache-AURORA,98.38%,1.22%,0.41%
-RedHat-JBWS,87.74%,9.35%,2.91%
-Apache-AMBARI,97.04%,2.72%,0.24%
-Jira-JRACLOUD,98.42%,1.43%,0.15%
-Apache-BEAM,81.47%,15.46%,3.08%
-Apache-TEZ,77.60%,20.25%,2.15%
-RedHat-CRW,96.71%,2.31%,0.98%
-Apache-MNG,97.66%,1.70%,0.64%
-Apache-ZEPPELIN,90.18%,8.27%,1.55%
-Apache-KYLIN,92.81%,5.81%,1.37%
-Apache-SMX4,95.38%,3.20%,1.42%
-Apache-DELTASPIKE,91.09%,6.72%,2.19%
-Spring-ROO,98.39%,1.08%,0.53%
-RedHat-TEIIDDES,96.10%,2.84%,1.06%
-Apache-AVRO,96.76%,2.56%,0.67%
-Apache-SOLR,92.29%,6.40%,1.31%
-Apache-PARQUET,96.02%,3.40%,0.58%
-Apache-CAY,96.77%,2.58%,0.65%
-Apache-FLUME,92.51%,6.20%,1.28%
-Apache-CONNECTORS,98.80%,0.98%,0.23%
-RedHat-UNDERTOW,96.33%,3.32%,0.35%
-Jira-JSDCLOUD,99.58%,0.40%,0.01%
-Jira-JSDSERVER,100.00%,0.00%,0.00%
-Jira-SRCTREE,100.00%,0.00%,0.00%
-Apache-PIG,88.13%,11.07%,0.80%
-Apache-HOP,87.50%,11.48%,1.02%
-RedHat-ERRAI,99.64%,0.18%,0.18%
-RedHat-OADP,58.98%,31.74%,9.28%
-Apache-WICKET,96.72%,2.19%,1.08%
-Apache-ORC,85.18%,13.38%,1.45%
-Apache-STRATOS,84.78%,13.06%,2.17%
-RedHat-ODC,64.91%,25.43%,9.66%
-JiraEcosystem-PL,98.37%,1.35%,0.28%
-Apache-TAVERNA,89.65%,8.37%,1.98%
-Apache-IGNITE,90.32%,8.44%,1.24%
-RedHat-HAC,66.80%,30.48%,2.72%
-Jira-BSERV,100.00%,0.00%,0.00%
-Spring-DATACMNS,99.55%,0.39%,0.06%
-Apache-FELIX,97.01%,2.42%,0.57%
-Apache-SENTRY,68.41%,27.89%,3.71%
-RedHat-HAL,93.12%,5.03%,1.86%
-Apache-MSHARED,99.83%,0.09%,0.09%
-RedHat-ISPN,95.14%,4.09%,0.76%
-Apache-TRINIDAD,98.83%,0.70%,0.47%
-Apache-FOR,93.37%,5.44%,1.20%
-Apache-ARIES,99.24%,0.62%,0.14%
-Apache-JCLOUDS,94.26%,4.94%,0.80%
-Apache-GERONIMO,92.04%,6.64%,1.32%
-RedHat-MODE,91.34%,7.43%,1.23%
-Apache-HTTPCLIENT,99.63%,0.23%,0.14%
-Apache-HDDS,61.71%,35.97%,2.32%
-Apache-TOMAHAWK,99.29%,0.48%,0.24%
-RedHat-SWITCHYARD,93.47%,4.91%,1.63%
-Apache-FOP,100.00%,0.00%,0.00%
-RedHat-RESTEASY,95.44%,3.86%,0.70%
-RedHat-WINDUP,92.39%,6.08%,1.53%
-Apache-MRELEASE,99.63%,0.18%,0.18%
-Jira-BAM,100.00%,0.00%,0.00%
-Apache-OWB,97.26%,2.11%,0.63%
-Apache-TOBAGO,96.75%,2.56%,0.69%
-Apache-GOBBLIN,98.44%,1.12%,0.45%
-RedHat-GITOPS,96.79%,2.34%,0.87%
-JFrog-TCAP,23.83%,76.07%,0.09%
-RedHat-JBSEAM,99.42%,0.40%,0.18%
-Jira-I18N,100.00%,0.00%,0.00%
-RedHat-CEQ,9.26%,72.33%,18.42%
-Apache-PIVOT,97.79%,1.92%,0.29%
-Apache-BATIK,100.00%,0.00%,0.00%
-Spring-IDE,99.21%,0.65%,0.14%
-Apache-AMQ,96.34%,2.23%,1.43%
-RedHat-AF,96.28%,2.91%,0.81%
-Jira-CRUC,100.00%,0.00%,0.00%
-RedHat-THORN,100.00%,0.00%,0.00%
-Apache-KARAF,99.10%,0.60%,0.29%
-Jira-CONFCLOUD,99.54%,0.31%,0.15%
-Apache-OODT,82.80%,14.41%,2.79%
-Apache-AXIS2,99.28%,0.45%,0.27%
-Apache-HUDI,92.87%,5.99%,1.14%
-Apache-GROOVY,97.23%,2.26%,0.51%
-JiraEcosystem-AG,85.73%,12.05%,2.22%
-RedHat-ENTMQMAAS,97.65%,1.42%,0.93%
-Apache-DRILL,94.35%,4.30%,1.35%
-Apache-HDFS,72.90%,25.66%,1.44%
-RedHat-JBDS,91.36%,6.48%,2.15%
-RedHat-JBPAPP,87.98%,9.94%,2.07%
-JiraEcosystem-PLUG,97.85%,1.37%,0.77%
-Apache-NUTCH,93.64%,4.95%,1.41%
-Apache-ACCUMULO,83.62%,12.22%,4.15%
-Apache-COCOON,97.97%,1.69%,0.34%
-RedHat-SB,89.85%,8.33%,1.82%
-Apache-JS2,96.61%,3.03%,0.37%
-Spring-SWF,98.86%,0.66%,0.48%
-RedHat-JBESB,96.12%,3.29%,0.59%
-Apache-MRM,95.78%,3.52%,0.69%
-RedHat-JBIDE,83.64%,14.48%,1.88%
-RedHat-JBTM,95.26%,3.63%,1.12%
-RedHat-JWS,93.76%,5.66%,0.58%
-Apache-ROL,99.91%,0.05%,0.05%
-RedHat-JBAS,77.56%,18.55%,3.90%
-JFrog-RTFACT,97.01%,2.14%,0.85%
-Apache-IOTDB,95.86%,3.31%,0.84%
-Jira-BCLOUD,100.00%,0.00%,0.00%
-Apache-TAP5,98.43%,1.31%,0.25%
-Jira-JRASERVER,100.00%,0.00%,0.00%
-Apache-DIRMINA,98.94%,0.71%,0.35%
-RedHat-OCPPLAN,27.45%,66.86%,5.68%
-Apache-FLINK,75.57%,21.69%,2.74%
-Apache-METRON,84.76%,13.11%,2.13%
-Spring-DATAMONGO,99.27%,0.54%,0.19%
-Apache-LOG4J2,98.57%,1.13%,0.30%
-Apache-BOOKKEEPER,82.65%,14.34%,3.01%
-Apache-STR,99.87%,0.10%,0.03%
-Apache-YARN,65.96%,31.97%,2.06%
-RedHat-MON,80.13%,15.85%,4.02%
-Spring-SPR,97.29%,1.85%,0.86%
-RedHat-JBEAP,98.69%,1.09%,0.23%
-Apache-PHOENIX,87.77%,10.38%,1.85%
-Apache-JCR,96.15%,3.24%,0.61%
-Apache-FALCON,72.13%,23.77%,4.10%
-RedHat-WELD,95.45%,3.63%,0.92%
-Apache-BIGTOP,79.28%,17.83%,2.90%
-Apache-SSHD,99.85%,0.08%,0.08%
-RedHat-OSSM,87.28%,9.91%,2.81%
-JiraEcosystem-PLE,84.72%,12.14%,3.14%
-Apache-SCB,80.01%,16.53%,3.46%
-Apache-SLIDER,76.05%,20.79%,3.16%
-RedHat-RFE,100.00%,0.00%,0.00%
-Jira-OPSGENIE,100.00%,0.00%,0.00%
-RedHat-QUARKUS,93.64%,5.29%,1.07%
-RedHat-ENTESB,93.91%,4.89%,1.21%
-RedHat-FUSETOOLS,87.61%,10.58%,1.81%
-Apache-RAVE,48.83%,43.55%,7.62%
-Apache-HIVE,81.64%,16.74%,1.62%
-Apache-KNOX,78.85%,19.21%,1.95%
-Apache-NETBEANS,98.67%,1.11%,0.22%
-Apache-SLING,95.34%,3.91%,0.75%
-Spring-STS,83.89%,13.37%,2.75%
-Apache-WW,97.97%,1.59%,0.44%
-Jira-CLOUD,85.89%,12.34%,1.77%
-Apache-AIRAVATA,75.40%,20.11%,4.49%
-Apache-CALCITE,94.51%,4.66%,0.83%
-Apache-XALANJ,99.92%,0.04%,0.04%
-Apache-CLOUDSTACK,92.59%,5.57%,1.85%
-Spring-DATAREDIS,98.89%,0.72%,0.40%
-RedHat-APIMAN,87.65%,10.25%,2.10%
-Apache-DIRSERVER,98.08%,1.39%,0.52%
-JiraEcosystem-ACJIRA,97.40%,2.08%,0.52%
-Apache-GEODE,87.19%,11.27%,1.53%
-Apache-JUDDI,96.37%,2.95%,0.69%
-JiraEcosystem-AMPS,96.63%,2.77%,0.59%
-RedHat-KATA,86.93%,9.96%,3.11%
-RedHat-OPECO,75.79%,20.06%,4.16%
-Apache-STORM,95.03%,3.95%,1.01%
-RedHat-EJBTHREE,92.15%,5.57%,2.28%
-Apache-DIRSTUDIO,97.44%,1.86%,0.70%
-JiraEcosystem-FRGE,100.00%,0.00%,0.00%
-Apache-SYNAPSE,96.70%,2.14%,1.16%
-RedHat-SDN,71.62%,22.42%,5.96%
-Apache-OAK,86.48%,11.39%,2.13%
-RedHat-ENTMQBR,97.00%,1.92%,1.07%
-Sonatype-NEXUS,86.50%,11.50%,1.99%
-RedHat-SRVKP,92.18%,5.92%,1.90%
-Apache-UIMA,98.60%,1.00%,0.40%
-Apache-CONTINUUM,97.91%,1.58%,0.51%
-Spring-DATAES,100.00%,0.00%,0.00%
-RedHat-HAWKULAR,81.44%,15.43%,3.13%
-Jira-CLOV,79.55%,14.59%,5.86%
-RedHat-JGRP,97.73%,1.25%,1.02%
-Apache-LENS,81.53%,14.89%,3.58%
-JiraEcosystem-AUI,96.85%,2.44%,0.71%
-Apache-OPENEJB,69.66%,27.80%,2.54%
-Apache-HBASE,78.64%,17.50%,3.86%
-RedHat-DBZ,97.43%,2.02%,0.55%
-RedHat-CLOUD,98.66%,0.87%,0.48%
-Spring-XD,96.22%,2.32%,1.46%
-Spring-DATAJPA,99.76%,0.18%,0.06%
-Apache-APEXMALHAR,96.13%,2.89%,0.98%
-RedHat-DEVELOPER,97.74%,1.93%,0.33%
-Apache-CXF,93.35%,5.91%,0.75%
-Apache-ASTERIXDB,99.58%,0.29%,0.13%
-Apache-HADOOP,83.38%,15.15%,1.47%
-JiraEcosystem-UPM,87.31%,10.27%,2.42%
-JiraEcosystem-APL,85.67%,11.73%,2.60%
-Spring-DATAGRAPH,98.23%,1.16%,0.61%
-RedHat-CNV,98.47%,1.09%,0.44%
-Apache-TIKA,97.61%,1.81%,0.58%
-Sonatype-MVNCENTRAL,100.00%,0.00%,0.00%
-Apache-DERBY,91.00%,6.41%,2.59%
-Apache-ATLAS,90.49%,7.53%,1.99%
-Apache-RANGER,94.83%,3.91%,1.26%
-Apache-CMIS,94.26%,4.56%,1.19%
-Apache-BEEHIVE,100.00%,0.00%,0.00%
-Jira-CONFSERVER,100.00%,0.00%,0.00%
-Apache-SUREFIRE,99.02%,0.70%,0.28%
-Jira-FE,100.00%,0.00%,0.00%
-Apache-MYFACES,95.80%,3.49%,0.71%
-MongoDB-JAVA,97.37%,1.92%,0.71%
-Spring-INT,92.21%,5.81%,1.98%
-Sonatype-OSSRH,99.87%,0.07%,0.06%
-Apache-ARTEMIS,97.92%,1.78%,0.29%
-JiraEcosystem-AC,99.04%,0.64%,0.32%
-JFrog-HAP,99.23%,0.54%,0.23%
-Apache-SHINDIG,94.69%,4.40%,0.91%
-Apache-REEF,63.55%,31.70%,4.74%
-Apache-HAMA,81.91%,14.12%,3.98%
-Apache-TAJO,80.49%,15.80%,3.71%
-RedHat-WFLY,94.09%,5.19%,0.72%
-Apache-PDFBOX,97.93%,1.67%,0.40%
-Apache-XERCESJ,100.00%,0.00%,0.00%
-Apache-AXIS,99.73%,0.14%,0.14%
-Apache-TUSCANY,97.72%,1.64%,0.64%
-RedHat-ARQ,96.87%,2.21%,0.92%
-Spring-DATAREST,99.87%,0.06%,0.06%
-Apache-IVY,99.69%,0.18%,0.12%
-RedHat-ENTMQST,97.96%,1.53%,0.51%
-Spring-SWS,98.85%,0.86%,0.29%
-Apache-STANBOL,82.69%,13.58%,3.73%
-Apache-SQOOP,73.26%,23.03%,3.71%
-Apache-OLINGO,93.22%,5.03%,1.76%
-RedHat-FORGE,85.89%,12.75%,1.37%
-Apache-OPENJPA,88.77%,8.34%,2.89%
-RedHat-AS7,92.08%,6.25%,1.68%
-RedHat-TEIID,92.40%,5.49%,2.11%
-Apache-TAPESTRY,96.28%,3.20%,0.52%
-Apache-EAGLE,88.24%,8.57%,3.19%
-Apache-MAPREDUCE,91.84%,6.98%,1.18%
-Apache-JSPWIKI,99.05%,0.57%,0.38%
-Apache-ZOOKEEPER,89.63%,8.45%,1.92%
-Apache-CAMEL,94.30%,4.11%,1.58%
-RedHat-ENTMQ,96.76%,2.09%,1.15%
-RedHat-RHCLOUD,94.65%,4.27%,1.09%
-Apache-LUCENE,96.12%,3.13%,0.74%
+Project,Domain,Independent,Child,Parent
+Apache-TOMEE,web development,76.69%,22.34%,0.96%
+RedHat-ACM,devops and cloud,88.01%,8.75%,3.25%
+Apache-SM,soa and middlewares,96.77%,2.27%,0.96%
+Apache-CASSANDRA,data storage & processing,95.38%,3.83%,0.79%
+Spring-BATCH,data storage & processing,94.92%,3.85%,1.23%
+RedHat-TRACING,devops and cloud,90.70%,7.28%,2.02%
+Apache-AURORA,devops and cloud,98.38%,1.22%,0.41%
+RedHat-JBWS,soa and middlewares,87.74%,9.35%,2.91%
+Apache-AMBARI,data storage & processing,97.04%,2.72%,0.24%
+Jira-JRACLOUD,content management,98.42%,1.43%,0.15%
+Apache-BEAM,data storage & processing,81.47%,15.46%,3.08%
+Apache-TEZ,data storage & processing,77.60%,20.25%,2.15%
+RedHat-CRW,software development tools,96.71%,2.31%,0.98%
+Apache-MNG,software development tools,97.66%,1.70%,0.64%
+Apache-ZEPPELIN,data storage & processing,90.18%,8.27%,1.55%
+Apache-KYLIN,data storage & processing,92.81%,5.81%,1.37%
+Apache-SMX4,soa and middlewares,95.38%,3.20%,1.42%
+Apache-DELTASPIKE,web development,91.09%,6.72%,2.19%
+Spring-ROO,software development tools,98.39%,1.08%,0.53%
+RedHat-TEIIDDES,data storage & processing,96.10%,2.84%,1.06%
+Apache-AVRO,data storage & processing,96.76%,2.56%,0.67%
+Apache-SOLR,content management,92.29%,6.40%,1.31%
+Apache-PARQUET,data storage & processing,96.02%,3.40%,0.58%
+Apache-CAY,data storage & processing,96.77%,2.58%,0.65%
+Apache-FLUME,data storage & processing,92.51%,6.20%,1.28%
+Apache-CONNECTORS,content management,98.80%,0.98%,0.23%
+RedHat-UNDERTOW,web development,96.33%,3.32%,0.35%
+Jira-JSDCLOUD,content management,99.58%,0.40%,0.01%
+Jira-JSDSERVER,content management,100.00%,0.00%,0.00%
+Jira-SRCTREE,software development tools,100.00%,0.00%,0.00%
+Apache-PIG,data storage & processing,88.13%,11.07%,0.80%
+Apache-HOP,data storage & processing,87.50%,11.48%,1.02%
+RedHat-ERRAI,web development,99.64%,0.18%,0.18%
+RedHat-OADP,devops and cloud,58.98%,31.74%,9.28%
+Apache-WICKET,web development,96.72%,2.19%,1.08%
+Apache-ORC,data storage & processing,85.18%,13.38%,1.45%
+Apache-STRATOS,devops and cloud,84.78%,13.06%,2.17%
+RedHat-ODC,software development tools,64.91%,25.43%,9.66%
+JiraEcosystem-PL,software development tools,98.37%,1.35%,0.28%
+Apache-TAVERNA,data storage & processing,89.65%,8.37%,1.98%
+Apache-IGNITE,data storage & processing,90.32%,8.44%,1.24%
+RedHat-HAC,devops and cloud,66.80%,30.48%,2.72%
+Jira-BSERV,software development tools,100.00%,0.00%,0.00%
+Spring-DATACMNS,data storage & processing,99.55%,0.39%,0.06%
+Apache-FELIX,soa and middlewares,97.01%,2.42%,0.57%
+Apache-SENTRY,data storage & processing,68.41%,27.89%,3.71%
+RedHat-HAL,web development,93.12%,5.03%,1.86%
+Apache-MSHARED,software development tools,99.83%,0.09%,0.09%
+RedHat-ISPN,data storage & processing,95.14%,4.09%,0.76%
+Apache-TRINIDAD,web development,98.83%,0.70%,0.47%
+Apache-FOR,content management,93.37%,5.44%,1.20%
+Apache-ARIES,soa and middlewares,99.24%,0.62%,0.14%
+Apache-JCLOUDS,devops and cloud,94.26%,4.94%,0.80%
+Apache-GERONIMO,web development,92.04%,6.64%,1.32%
+RedHat-MODE,data storage & processing,91.34%,7.43%,1.23%
+Apache-HTTPCLIENT,soa and middlewares,99.63%,0.23%,0.14%
+Apache-HDDS,data storage & processing,61.71%,35.97%,2.32%
+Apache-TOMAHAWK,web development,99.29%,0.48%,0.24%
+RedHat-SWITCHYARD,soa and middlewares,93.47%,4.91%,1.63%
+Apache-FOP,content management,100.00%,0.00%,0.00%
+RedHat-RESTEASY,soa and middlewares,95.44%,3.86%,0.70%
+RedHat-WINDUP,software development tools,92.39%,6.08%,1.53%
+Apache-MRELEASE,software development tools,99.63%,0.18%,0.18%
+Jira-BAM,devops and cloud,100.00%,0.00%,0.00%
+Apache-OWB,web development,97.26%,2.11%,0.63%
+Apache-TOBAGO,web development,96.75%,2.56%,0.69%
+Apache-GOBBLIN,data storage & processing,98.44%,1.12%,0.45%
+RedHat-GITOPS,devops and cloud,96.79%,2.34%,0.87%
+JFrog-TCAP,devops and cloud,23.83%,76.07%,0.09%
+RedHat-JBSEAM,web development,99.42%,0.40%,0.18%
+Jira-I18N,software development tools,100.00%,0.00%,0.00%
+RedHat-CEQ,soa and middlewares,9.26%,72.33%,18.42%
+Apache-PIVOT,web development,97.79%,1.92%,0.29%
+Apache-BATIK,content management,100.00%,0.00%,0.00%
+Spring-IDE,software development tools,99.21%,0.65%,0.14%
+Apache-AMQ,soa and middlewares,96.34%,2.23%,1.43%
+RedHat-AF,software development tools,96.28%,2.91%,0.81%
+Jira-CRUC,software development tools,100.00%,0.00%,0.00%
+RedHat-THORN,web development,100.00%,0.00%,0.00%
+Apache-KARAF,devops and cloud,99.10%,0.60%,0.29%
+Jira-CONFCLOUD,content management,99.54%,0.31%,0.15%
+Apache-OODT,data storage & processing,82.80%,14.41%,2.79%
+Apache-AXIS2,soa and middlewares,99.28%,0.45%,0.27%
+Apache-HUDI,data storage & processing,92.87%,5.99%,1.14%
+Apache-GROOVY,software development tools,97.23%,2.26%,0.51%
+JiraEcosystem-AG,content management,85.73%,12.05%,2.22%
+RedHat-ENTMQMAAS,soa and middlewares,97.65%,1.42%,0.93%
+Apache-DRILL,data storage & processing,94.35%,4.30%,1.35%
+Apache-HDFS,data storage & processing,72.90%,25.66%,1.44%
+RedHat-JBDS,software development tools,91.36%,6.48%,2.15%
+RedHat-JBPAPP,web development,87.98%,9.94%,2.07%
+JiraEcosystem-PLUG,software development tools,97.85%,1.37%,0.77%
+Apache-NUTCH,web development,93.64%,4.95%,1.41%
+Apache-ACCUMULO,data storage & processing,83.62%,12.22%,4.15%
+Apache-COCOON,web development,97.97%,1.69%,0.34%
+RedHat-SB,devops and cloud,89.85%,8.33%,1.82%
+Apache-JS2,web development,96.61%,3.03%,0.37%
+Spring-SWF,web development,98.86%,0.66%,0.48%
+RedHat-JBESB,soa and middlewares,96.12%,3.29%,0.59%
+Apache-MRM,software development tools,95.78%,3.52%,0.69%
+RedHat-JBIDE,software development tools,83.64%,14.48%,1.88%
+RedHat-JBTM,soa and middlewares,95.26%,3.63%,1.12%
+RedHat-JWS,web development,93.76%,5.66%,0.58%
+Apache-ROL,content management,99.91%,0.05%,0.05%
+RedHat-JBAS,web development,77.56%,18.55%,3.90%
+JFrog-RTFACT,devops and cloud,97.01%,2.14%,0.85%
+Apache-IOTDB,data storage & processing,95.86%,3.31%,0.84%
+Jira-BCLOUD,software development tools,100.00%,0.00%,0.00%
+Apache-TAP5,web development,98.43%,1.31%,0.25%
+Jira-JRASERVER,content management,100.00%,0.00%,0.00%
+Apache-DIRMINA,soa and middlewares,98.94%,0.71%,0.35%
+RedHat-OCPPLAN,devops and cloud,27.45%,66.86%,5.68%
+Apache-FLINK,data storage & processing,75.57%,21.69%,2.74%
+Apache-METRON,data storage & processing,84.76%,13.11%,2.13%
+Spring-DATAMONGO,data storage & processing,99.27%,0.54%,0.19%
+Apache-LOG4J2,software development tools,98.57%,1.13%,0.30%
+Apache-BOOKKEEPER,data storage & processing,82.65%,14.34%,3.01%
+Apache-STR,web development,99.87%,0.10%,0.03%
+Apache-YARN,data storage & processing,65.96%,31.97%,2.06%
+RedHat-MON,devops and cloud,80.13%,15.85%,4.02%
+Spring-SPR,web development,97.29%,1.85%,0.86%
+RedHat-JBEAP,web development,98.69%,1.09%,0.23%
+Apache-PHOENIX,data storage & processing,87.77%,10.38%,1.85%
+Apache-JCR,content management,96.15%,3.24%,0.61%
+Apache-FALCON,data storage & processing,72.13%,23.77%,4.10%
+RedHat-WELD,web development,95.45%,3.63%,0.92%
+Apache-BIGTOP,data storage & processing,79.28%,17.83%,2.90%
+Apache-SSHD,soa and middlewares,99.85%,0.08%,0.08%
+RedHat-OSSM,devops and cloud,87.28%,9.91%,2.81%
+JiraEcosystem-PLE,software development tools,84.72%,12.14%,3.14%
+Apache-SCB,devops and cloud,80.01%,16.53%,3.46%
+Apache-SLIDER,data storage & processing,76.05%,20.79%,3.16%
+RedHat-RFE,devops and cloud,100.00%,0.00%,0.00%
+Jira-OPSGENIE,devops and cloud,100.00%,0.00%,0.00%
+RedHat-QUARKUS,devops and cloud,93.64%,5.29%,1.07%
+RedHat-ENTESB,soa and middlewares,93.91%,4.89%,1.21%
+RedHat-FUSETOOLS,software development tools,87.61%,10.58%,1.81%
+Apache-RAVE,web development,48.83%,43.55%,7.62%
+Apache-HIVE,data storage & processing,81.64%,16.74%,1.62%
+Apache-KNOX,soa and middlewares,78.85%,19.21%,1.95%
+Apache-NETBEANS,software development tools,98.67%,1.11%,0.22%
+Apache-SLING,web development,95.34%,3.91%,0.75%
+Spring-STS,software development tools,83.89%,13.37%,2.75%
+Apache-WW,web development,97.97%,1.59%,0.44%
+Jira-CLOUD,devops and cloud,85.89%,12.34%,1.77%
+Apache-AIRAVATA,soa and middlewares,75.40%,20.11%,4.49%
+Apache-CALCITE,data storage & processing,94.51%,4.66%,0.83%
+Apache-XALANJ,content management,99.92%,0.04%,0.04%
+Apache-CLOUDSTACK,devops and cloud,92.59%,5.57%,1.85%
+Spring-DATAREDIS,data storage & processing,98.89%,0.72%,0.40%
+RedHat-APIMAN,soa and middlewares,87.65%,10.25%,2.10%
+Apache-DIRSERVER,soa and middlewares,98.08%,1.39%,0.52%
+JiraEcosystem-ACJIRA,software development tools,97.40%,2.08%,0.52%
+Apache-GEODE,data storage & processing,87.19%,11.27%,1.53%
+Apache-JUDDI,soa and middlewares,96.37%,2.95%,0.69%
+JiraEcosystem-AMPS,software development tools,96.63%,2.77%,0.59%
+RedHat-KATA,devops and cloud,86.93%,9.96%,3.11%
+RedHat-OPECO,devops and cloud,75.79%,20.06%,4.16%
+Apache-STORM,data storage & processing,95.03%,3.95%,1.01%
+RedHat-EJBTHREE,soa and middlewares,92.15%,5.57%,2.28%
+Apache-DIRSTUDIO,soa and middlewares,97.44%,1.86%,0.70%
+JiraEcosystem-FRGE,software development tools,100.00%,0.00%,0.00%
+Apache-SYNAPSE,soa and middlewares,96.70%,2.14%,1.16%
+RedHat-SDN,devops and cloud,71.62%,22.42%,5.96%
+Apache-OAK,content management,86.48%,11.39%,2.13%
+RedHat-ENTMQBR,soa and middlewares,97.00%,1.92%,1.07%
+Sonatype-NEXUS,devops and cloud,86.50%,11.50%,1.99%
+RedHat-SRVKP,devops and cloud,92.18%,5.92%,1.90%
+Apache-UIMA,content management,98.60%,1.00%,0.40%
+Apache-CONTINUUM,software development tools,97.91%,1.58%,0.51%
+Spring-DATAES,data storage & processing,100.00%,0.00%,0.00%
+RedHat-HAWKULAR,devops and cloud,81.44%,15.43%,3.13%
+Jira-CLOV,software development tools,79.55%,14.59%,5.86%
+RedHat-JGRP,soa and middlewares,97.73%,1.25%,1.02%
+Apache-LENS,data storage & processing,81.53%,14.89%,3.58%
+JiraEcosystem-AUI,software development tools,96.85%,2.44%,0.71%
+Apache-OPENEJB,soa and middlewares,69.66%,27.80%,2.54%
+Apache-HBASE,data storage & processing,78.64%,17.50%,3.86%
+RedHat-DBZ,data storage & processing,97.43%,2.02%,0.55%
+RedHat-CLOUD,devops and cloud,98.66%,0.87%,0.48%
+Spring-XD,data storage & processing,96.22%,2.32%,1.46%
+Spring-DATAJPA,data storage & processing,99.76%,0.18%,0.06%
+Apache-APEXMALHAR,data storage & processing,96.13%,2.89%,0.98%
+RedHat-DEVELOPER,web development,97.74%,1.93%,0.33%
+Apache-CXF,soa and middlewares,93.35%,5.91%,0.75%
+Apache-ASTERIXDB,data storage & processing,99.58%,0.29%,0.13%
+Apache-HADOOP,data storage & processing,83.38%,15.15%,1.47%
+JiraEcosystem-UPM,devops and cloud,87.31%,10.27%,2.42%
+JiraEcosystem-APL,software development tools,85.67%,11.73%,2.60%
+Spring-DATAGRAPH,data storage & processing,98.23%,1.16%,0.61%
+RedHat-CNV,devops and cloud,98.47%,1.09%,0.44%
+Apache-TIKA,content management,97.61%,1.81%,0.58%
+Sonatype-MVNCENTRAL,devops and cloud,100.00%,0.00%,0.00%
+Apache-DERBY,data storage & processing,91.00%,6.41%,2.59%
+Apache-ATLAS,data storage & processing,90.49%,7.53%,1.99%
+Apache-RANGER,data storage & processing,94.83%,3.91%,1.26%
+Apache-CMIS,content management,94.26%,4.56%,1.19%
+Apache-BEEHIVE,web development,100.00%,0.00%,0.00%
+Jira-CONFSERVER,content management,100.00%,0.00%,0.00%
+Apache-SUREFIRE,software development tools,99.02%,0.70%,0.28%
+Jira-FE,software development tools,100.00%,0.00%,0.00%
+Apache-MYFACES,web development,95.80%,3.49%,0.71%
+MongoDB-JAVA,data storage & processing,97.37%,1.92%,0.71%
+Spring-INT,soa and middlewares,92.21%,5.81%,1.98%
+Sonatype-OSSRH,devops and cloud,99.87%,0.07%,0.06%
+Apache-ARTEMIS,soa and middlewares,97.92%,1.78%,0.29%
+JiraEcosystem-AC,software development tools,99.04%,0.64%,0.32%
+JFrog-HAP,devops and cloud,99.23%,0.54%,0.23%
+Apache-SHINDIG,web development,94.69%,4.40%,0.91%
+Apache-REEF,data storage & processing,63.55%,31.70%,4.74%
+Apache-HAMA,data storage & processing,81.91%,14.12%,3.98%
+Apache-TAJO,data storage & processing,80.49%,15.80%,3.71%
+RedHat-WFLY,web development,94.09%,5.19%,0.72%
+Apache-PDFBOX,content management,97.93%,1.67%,0.40%
+Apache-XERCESJ,content management,100.00%,0.00%,0.00%
+Apache-AXIS,soa and middlewares,99.73%,0.14%,0.14%
+Apache-TUSCANY,soa and middlewares,97.72%,1.64%,0.64%
+RedHat-ARQ,software development tools,96.87%,2.21%,0.92%
+Spring-DATAREST,data storage & processing,99.87%,0.06%,0.06%
+Apache-IVY,software development tools,99.69%,0.18%,0.12%
+RedHat-ENTMQST,soa and middlewares,97.96%,1.53%,0.51%
+Spring-SWS,soa and middlewares,98.85%,0.86%,0.29%
+Apache-STANBOL,content management,82.69%,13.58%,3.73%
+Apache-SQOOP,data storage & processing,73.26%,23.03%,3.71%
+Apache-OLINGO,soa and middlewares,93.22%,5.03%,1.76%
+RedHat-FORGE,software development tools,85.89%,12.75%,1.37%
+Apache-OPENJPA,data storage & processing,88.77%,8.34%,2.89%
+RedHat-AS7,web development,92.08%,6.25%,1.68%
+RedHat-TEIID,data storage & processing,92.40%,5.49%,2.11%
+Apache-TAPESTRY,web development,96.28%,3.20%,0.52%
+Apache-EAGLE,data storage & processing,88.24%,8.57%,3.19%
+Apache-MAPREDUCE,data storage & processing,91.84%,6.98%,1.18%
+Apache-JSPWIKI,content management,99.05%,0.57%,0.38%
+Apache-ZOOKEEPER,devops and cloud,89.63%,8.45%,1.92%
+Apache-CAMEL,soa and middlewares,94.30%,4.11%,1.58%
+RedHat-ENTMQ,soa and middlewares,96.76%,2.09%,1.15%
+RedHat-RHCLOUD,devops and cloud,94.65%,4.27%,1.09%
+Apache-LUCENE,content management,96.12%,3.13%,0.74%
