@@ -68,21 +68,13 @@ dtype_combined = {
     "property": ["property", "existence-property", "executive-property", "existence-executive-property"],
     "nonarch": [""]
 }
-values_to_count = {
-    "status": ["closed","resolved","open","gathering interest","done","gathering impact"],
-    "issue_type": ["bug","improvement","suggestion","task","sub-task","new project"],
-    "resolution": ["fixed","done","won't fix","duplicate","invalid","won't do","complete"]
-}
 
 # chisq additional settings
 # based on top counts (see isolate_big_values.py)
 option_limiting = {
-    # "status": ["closed", "resolved", "open", "gathering interest", "done", "gathering impact"],
-    # "issue_type": ['bug', 'improvement', 'suggestion', 'task', 'sub-task', 'new project'],
-    # "resolution": ['fixed', 'done', "won't fix", 'duplicate', 'invalid', "won't do", "complete"]
-    "status": ["closed", "resolved", "open", "in progress"],
-    "issue_type": ["bug", "task", "epic", "new feature"],
-    "resolution": ["done", "fixed", "duplicate", "won't fix", "won't do"]
+    "status": ["closed", "resolved", "open", "in progress", "reopened"],
+    "issue_type": ["bug", "task", "wish", "new feature", "sub-task", "improvement"],
+    "resolution": ["done", "fixed", "duplicate", "won't fix", "obsolete", "not a bug"]
 }
 
 # mann-whitney graphics
